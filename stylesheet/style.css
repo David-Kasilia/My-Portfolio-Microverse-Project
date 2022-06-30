@@ -13,17 +13,17 @@ header{
     font-size: 34px;
     font-weight: 300;
     color: #9490ff;
-    margin-left: 15px;
+    margin-left: 25px;
         margin-right: 15px;
      
 }
 
 .line{
     display: block;
-    width: 400px;
+    width: 390px;
     margin-top: -40px;
-    margin-left: 15px;
-        margin-right: 15px;
+    margin-left: 25px;
+        margin-right: 10px;
 }
 
 .project{
@@ -31,27 +31,160 @@ header{
     justify-content: center;
     flex-direction: column;
     margin-top: 30px;
-    align-items: center;
-    margin-left: 15px;
-        margin-right: 15px;
+    align-items: center;  
 }
 
 .sample{
     width: 360px;
     height: 195px;
+    
 }
 
 .title{
     color: white;
     font-size: 24px;
     font-family: 'Roboto',sans-serif;
-    margin-left: -160px;
+    margin-left: -170px;
 }
 
 .text{
   font-family: 'Inter', sans-serif;
   color: #dcdce8;
   font-size: 18px;
- margin: 5px 18px 0px 18px;
+ margin: 5px 18px 0px 30px;
+
+}
+
+.lang{
+    display: grid;
+    margin-top: 30px;
+}
+
+.css{
+    margin-left: 30px;
+    grid-column: 1 / 1;
+        font-family: 'Inter', sans-serif;
+        color: white;
+        font-size: 14px;
+}
+.html{
+     grid-column: 2 / 2;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 14px;
+}
+
+.boot{
+    grid-column: 3 / 3;
+    font-family: 'Inter', sans-serif;
+    color: white;
+        font-size: 14px;
+}
+
+.ruby{
+    grid-column: 4 / 4;
+    font-family: 'Inter', sans-serif;
+    color: white;
+        font-size: 14px;
+}
+
+.see{
+    background: #7d73fc;
+    width: 85px;
+    height: 45px;
+    color: #edecff;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 30px;
+   margin-top: 30px;
+   padding: 10px;
+   border-color: #7d73fc;
+}
+
+
+.about-title{
+    font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-size: 34px;
+        font-weight: 300;
+        color: #9490ff;
+        margin-left: 25px;
+        margin-right: 15px;
+}
+
+.line-2{
+    display: block;
+        width: 390px;
+        margin-top: -15px;
+        margin-left: 25px;
+        margin-right: 10px;
+    }
+
+.about-text{
+    font-family: 'Inter', sans-serif;
+        color: #dcdce8;
+        font-size: 18px;
+        margin: 15px 18px 0px 30px;
+}
+
+
+
+.details {
+  margin: 35px 18px 0px 30px;
+}
+
+.connect {
+    font-family: 'Inter', sans-serif;
+        color: #dcdce8;
+        font-size: 18px;
+       
+}
+
+.resume {
+    background: #7d73fc;
+        width: 185px;
+        height: 65px;
+        color: #edecff;
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 30px;
+        margin-top: 30px;
+        padding: 10px;
+        border-color: #7d73fc;
+        border-radius: 5px;
+}
+
+.line-about {
+    display: block;
+    width: 390px;
+    margin-top: 15px;
+    margin-left: 25px;
+
+}
+
+.titles{
+    display: grid;
+    margin-top: 20px
+}
+
+.skill-one{
+    margin-left: 30px;
+        grid-column: 1 / 1;
+            font-family: 'Roboto', sans-serif;
+        color: white;
+        font-size: 16px;
+
+}
+.skill-two{
+    grid-column: 2 / 2;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        font-size: 16px;
+}
+.skill-three{
+    grid-column: 3 / 3;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        font-size: 16px;
 
 }
