@@ -27,12 +27,12 @@ Day 4  Week 1 Project Of Creating A Portfolio Mobile Version Second Milestone Us
 <li>Created a Github Repository</li>
 <li>Cloned the created repository to my local machine</li>
 <li>I created setup-project branch to create all the files needed for the project. These Files include:
-            <ul>
+        <ul>
             <li>.github/workflows directory to store the linter.yml file</li>
             <li>images directory to store the images used in creating this project.</li>
             <li>stylesheet directory to store the style.css file for styling the website</li>
             <li>index.html to write the HTML code.</li>
-            <ul></li>
+        <ul></li>
 <li>Merged setup-project with the main branch
 <li>Created the initialization-project branch to build the project code.</li>
 <li>Opened the folder Using VSCode.<li>
@@ -60,7 +60,7 @@ David Kasilia Mwanzia
 <ul>
 <li>Github <a href="https://github.com/David-Kasilia">Link To Github Profile</a></li>
 <li>Linkedin <a href="https://www.linkedin.com/in/david-kasilia-846241211/">Link To Linkedin Profile</a></li>
-<li>Twitter <a href="https://twitter.com/DavidKasilia">Link To Twitter Profile</a><li>
+<li>Twitter <a href="https://twitter.com/DavidKasilia">Link To Twitter Profile</a></li>
 </ul>
 
 # Contributing

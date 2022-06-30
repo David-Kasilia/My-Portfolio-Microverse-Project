@@ -57,11 +57,12 @@ header {
 }
 
 .css {
-  margin-left: 30px;
+  margin-left: 0px;
   grid-column: 1 / 1;
   font-family: 'Inter', sans-serif;
   color: white;
   font-size: 14px;
+  list-style-type: none;
 }
 
 .liner {
@@ -69,7 +70,8 @@ header {
   font-family: 'Inter', sans-serif;
   color: white;
   font-size: 14px;
-  font-weight: 100;
+  font-weight: 200;
+  list-style-type: none;
 }
 
 .html {
@@ -77,6 +79,7 @@ header {
   font-family: 'Inter', sans-serif;
   color: white;
   font-size: 14px;
+  list-style-type: none;
 }
 
 .liner-2 {
@@ -84,7 +87,8 @@ header {
   font-family: 'Inter', sans-serif;
   color: white;
   font-size: 14px;
-  font-weight: 100;
+  font-weight: 200;
+  list-style-type: none;
 }
 
 .boot {
@@ -92,6 +96,7 @@ header {
   font-family: 'Inter', sans-serif;
   color: white;
   font-size: 14px;
+  list-style-type: none;
 }
 
 .liner-3 {
@@ -99,7 +104,8 @@ header {
   font-family: 'Inter', sans-serif;
   color: white;
   font-size: 14px;
-  font-weight: 100;
+  font-weight: 200;
+  list-style-type: none;
 }
 
 .ruby {
@@ -107,6 +113,7 @@ header {
   font-family: 'Inter', sans-serif;
   color: white;
   font-size: 14px;
+  list-style-type: none;
 }
 
 .see {
@@ -181,7 +188,9 @@ header {
 
 .titles {
   display: grid;
-  margin-top: 20px
+  margin-top: 20px;
+  list-style-type: none;
+  margin-left: -30px;
 }
 
 .skill-one {
@@ -190,6 +199,7 @@ header {
   font-family: 'Roboto', sans-serif;
   color: white;
   font-size: 16px;
+  list-style-type: none;
 }
 
 .skill-two {
@@ -197,6 +207,7 @@ header {
   font-family: 'Roboto', sans-serif;
   color: white;
   font-size: 16px;
+  list-style-type: none;
 }
 
 .skill-three {
@@ -204,6 +215,7 @@ header {
   font-family: 'Roboto', sans-serif;
   color: white;
   font-size: 16px;
+  list-style-type: none;
 }
 
 .skills {
@@ -216,6 +228,7 @@ header {
   font-family: 'Inter', sans-serif;
   color: #dcdce8;
   font-size: 14px;
+  list-style-type: none;
 }
 
 .line-bottom {
