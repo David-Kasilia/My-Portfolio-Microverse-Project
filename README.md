@@ -56,8 +56,7 @@ I tested the website by running the code to a live server and opened it with Moz
 My Recent Work Responsive Section (Mobile Version)
 
 ![Image of the mobile version about me section](./images/responsive-b.PNG)
-About Me Responsive Section (Mobile Version)
-![Recent Image](./images/top-part.PNG)
+
 # Authors
 David Kasilia Mwanzia
 <ul>
