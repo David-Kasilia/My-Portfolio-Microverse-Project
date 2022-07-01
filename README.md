@@ -46,7 +46,9 @@ Day 4  Week 1 Project Of Creating A Portfolio Mobile Version Second Milestone Us
 # About Me Section Of The Page
 ![Image of about me section of the page](./images/section-b.PNG)
 
-This Template from Figma had no about me section. I took into consideration the template from the Requirements Project The template given there. I tried to maintain the look and style of the page.
+I added the personal information section of the page.
+
+![Recent Image](./images/top-part.PNG)
 
 # Run Tests
 I tested the website by running the code to a live server and opened it with Mozilla Firefox.To ensure the Webpage was responsive and was in a mobile version with both sections. I used the developer tools to see if it was responsive.
@@ -55,6 +57,7 @@ My Recent Work Responsive Section (Mobile Version)
 
 ![Image of the mobile version about me section](./images/responsive-b.PNG)
 About Me Responsive Section (Mobile Version)
+![Recent Image](./images/top-part.PNG)
 # Authors
 David Kasilia Mwanzia
 <ul>
