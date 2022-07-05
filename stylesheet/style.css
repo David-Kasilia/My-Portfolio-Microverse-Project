@@ -282,12 +282,11 @@ form > input {
   width: 367px;
   height: 48px;
   background: white;
-  margin-right: 55px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  margin: 15px 0px 0px 0px;
+  margin: 15px 20px 15px 20px;
 }
 
 .text-email {
