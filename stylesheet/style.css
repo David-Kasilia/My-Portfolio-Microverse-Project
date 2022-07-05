@@ -96,8 +96,7 @@ article {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  margin-top: 20px;
-  margin-left: -20px;
+  margin-top: 50px;
 }
 
 .works {
