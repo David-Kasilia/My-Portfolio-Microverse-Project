@@ -100,8 +100,6 @@ article {
   margin-left: -20px;
 }
 
-
-
 .works {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -254,7 +252,7 @@ header {
   margin-left: 10px;
   margin-right: 10px;
   margin-top: -4px;
-  font-family: "Inter";
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -262,7 +260,7 @@ header {
 }
 
 .contacts-title {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
@@ -286,7 +284,7 @@ form > ul > li >input {
   height : 48px;
   background : white;
   margin-right: 55px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -294,7 +292,7 @@ form > ul > li >input {
 
 .text-email {
   color: #191765;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -304,7 +302,7 @@ textarea {
   width: 327px;
   height: 148px;
   margin-right: 55px ;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -330,7 +328,7 @@ hr {
 
 .email {
   text-align: center;
-  font-family: 'Roboto';
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
