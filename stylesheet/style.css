@@ -411,10 +411,28 @@ textarea {
 .email-desk{
   display: none;
 }
+
+.desk-title{
+  display: none;
+}
+.text-email-desk{
+  display: none;
+}
 .contacts-bottom {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
   margin-top: 50px;
   width: 200px;
+}
+
+.ellipse-1 {
+position: absolute;
+  width: 39.61px;
+  height: 482.57px;
+  left: -112.04px;
+  top: 1624.71px;
+  background: #EDECFF;
+  filter: blur(50px);
+  transform: rotate(-36.38deg);
 }

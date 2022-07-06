@@ -588,4 +588,19 @@ margin: auto;
     font-size: 20px;
     color: #ebebff;
 }
+
+.ellipse-1{
+    position: absolute;
+        width: 57.53px;
+        height: 700.92px;
+        left: -132px;
+        top: 1479.12px;
+    
+        background: #EDECFF;
+        filter: blur(50px);
+        transform: rotate(-36.38deg);
+}
+
+
+
 }
