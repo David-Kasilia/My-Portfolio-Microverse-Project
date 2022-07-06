@@ -3,8 +3,8 @@
  }
 
  .menu {
-   display: block;
-  width: 35.33px;
+    display: block;
+    width: 35.33px;
     height: 22.83px;
     margin-top: 20px;
     margin-right: 40px;
@@ -41,12 +41,12 @@
  }
 
  .dev-name{
-  font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-  margin-left: 20px;
-  color: white;
+    margin-left: 20px;
+    color: white;
  }
 
  .main-header,
@@ -132,9 +132,8 @@
   justify-content: space-evenly;
   flex-direction: row;
   margin-top: 50px;
-  margin-left: 540px;
-    margin-right: 500px;
-    width: 200px;
+  margin: auto;
+  width: 200px;
 }
 
 .works {
@@ -177,8 +176,8 @@
 
 .project-1, 
 .project-2,
- .project-3,
- .project-4 {
+.project-3,
+.project-4 {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -408,27 +407,29 @@ textarea {
   width: 200px;
 }
 
-.email-desk{
+.email-desk {
   display: none;
 }
 
-.desk-title{
+.desk-title {
   display: none;
 }
-.text-email-desk{
+
+.text-email-desk {
   display: none;
 }
+
 .contacts-bottom {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
   margin-top: 50px;
-  margin-left: 125px;
+  margin: auto;
   width: 200px;
 }
 
 .ellipse-1 {
-position: absolute;
+  position: absolute;
   width: 39.61px;
   height: 482.57px;
   left: -112.04px;

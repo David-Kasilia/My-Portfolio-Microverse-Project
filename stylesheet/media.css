@@ -1,37 +1,35 @@
 @media only screen and (min-width: 768px) {
-   body {
-            background-color: #191765;
-        }
+  body {
+    background-color: #191765;
+  }
     
-    nav {
-        
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-       
-    }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
 
-    .dev-name {
-        margin-left: 180px;
-        color: white;
-            font-size: 18px;
-            font-family: "Roboto", sans-serif;
-            font-style: normal;
-                font-weight: 500;
-    }
-
-    .menu-list {
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: row;
-        list-style-type: none;
-        font-family: "Roboto", sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        color: white;
-        gap: 50px;
-    }
+  .dev-name {
+    margin-left: 180px;
+    color: white;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  .menu-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    list-style-type: none;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    gap: 50px;
+  }
 
     .union {
         margin-right: 100px;
@@ -570,7 +568,7 @@ form{
 display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
+ padding: 0px;
 width: 421px;
 margin: auto;
 }
