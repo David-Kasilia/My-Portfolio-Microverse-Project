@@ -200,10 +200,7 @@
   margin-top: 30px;
 }
 
-.css-1,
-.css-2,
-.css-3,
-.css-4 {
+.css {
   grid-column: 1 / 1;
   font-family: "Inter", sans-serif;
   color: white;

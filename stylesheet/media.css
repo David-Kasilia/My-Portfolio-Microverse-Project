@@ -186,11 +186,17 @@
     margin-top: 20px;
 }
 
-.project-1 {
+.project-1,
+.project-3 {
    position: relative;
 }
 
-.sample-1 {
+.project-3 {
+    margin-top: -650px;
+}
+
+.sample-1,
+.sample-3 {
     width: 684px;
     height: 448px;
     position: absolute;
@@ -200,7 +206,8 @@
   
 }
 
-.title-1{
+.title-1,
+.title-3 {
     color: white;
     font-size: 24px;
     font-family: "Roboto", sans-serif;
@@ -208,7 +215,8 @@
     margin-top: 60px;
 }
 
-.text-1 {
+.text-1,
+.text-3 {
     font-family: "Inter", sans-serif;
     color: #dcdce8;
     font-size: 18px;
@@ -220,7 +228,8 @@
  
 }
 
-.lang-1 {
+.lang-1,
+.lang-3 {
     display: grid;
     position: absolute;
     left: 790px;
@@ -290,7 +299,8 @@
     list-style-type: none;
 }
 
-.see-1 {
+.see-1,
+.see-3 {
     background: #7d73fc;
     width: 85px;
     height: 45px;
@@ -303,7 +313,8 @@
     margin-top: 255px;
     border-color: #7d73fc;
 }
-.project-2 {
+.project-2,
+.project-4 {
     margin-top: 480px;
     position: relative;
 }
@@ -343,7 +354,7 @@
     position: absolute;   
     left: 80px;
     gap: 30px;
-    margin-top: 150px;
+    margin-top: 230px;
 }
 
 .css {
@@ -415,8 +426,8 @@
     font-family: "Roboto", sans-serif;
     position: absolute;
     padding: 10px;
-    left: 890px;
-    margin-top: -65px;
+    margin-top: 355px;
+    left: 145px;
     border-color: #7d73fc;
 }
 
