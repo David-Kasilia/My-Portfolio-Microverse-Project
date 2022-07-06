@@ -344,6 +344,13 @@ textarea {
   font-size: 15px;
 }
 
+.text-desk,
+.text-last,
+.test-email-desk,
+.mess-desk {
+  display: none;
+}
+
 .submit-btn {
   display: block;
   margin: auto;
