@@ -20,6 +20,26 @@
    flex-direction: row;
  }
 
+ .circle{
+  position: absolute;
+    width: 160px;
+    height: 160px;
+    left: -106px;
+    top: 0px;
+    background: #EDECFF;
+    filter: blur(50px);
+ }
+
+ .circle-2{
+  position: absolute;
+    width: 68px;
+    height: 68px;
+    left: 339px;
+    top: 495px;
+    background: #EDECFF;
+    filter: blur(50px);
+ }
+
  .dev-name{
   font-family: "Roboto", sans-serif;
     font-style: normal;

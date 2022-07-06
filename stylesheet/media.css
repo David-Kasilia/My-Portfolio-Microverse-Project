@@ -106,6 +106,29 @@
         margin-right: 500px;
         
 }
+
+.circle{
+    position: absolute;
+width: 184px;
+height: 184px;
+left: 69px;
+top: 237px;
+
+background: #EDECFF;
+filter: blur(50px);
+}
+
+.circle-2{
+position: absolute;
+    width: 226px;
+    height: 226px;
+    left: 1143px;
+    top: 546px;
+
+    background: #EDECFF;
+    filter: blur(50px);
+
+}
         
 .list-one {
     list-style-type: none;
