@@ -25,7 +25,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-  margin-left: 40px;
+  margin-left: 20px;
   color: white;
  }
 
@@ -143,7 +143,6 @@
 
 .line-mobile {
   display: block;
-  width: 390px;
   margin-top: -20px;
   margin-left: 25px;
   margin-right: 10px;
@@ -153,7 +152,10 @@
   display: none;
 }
 
-.project {
+.project-1, 
+.project-2,
+ .project-3,
+ .project-4 {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -161,38 +163,53 @@
   align-items: center;
 }
 
-.sample {
+.sample-1,
+.sample-2,
+.sample-3,
+.sample-4 {
   width: 360px;
   height: 195px;
-  margin-left: -31px;
+  margin-left: 11px;
 }
 
-.title {
+.title-1,
+.title-2,
+.title-3,
+.title-4 {
   color: white;
   font-size: 24px;
   font-family: "Roboto", sans-serif;
-  margin-left: -192px;
+  margin-left: -145px;
 }
 
-.text {
+.text-1,
+.text-2,
+.text-3,
+.text-4 {
   font-family: "Inter", sans-serif;
   color: #dcdce8;
   font-size: 18px;
-  margin: 5px 18px 1px 30px;
+  margin: 5px 18px 1px 25px;
 }
 
-.lang {
+.lang-1,
+.lang-2,
+.lang-3,
+.lang-4 {
   display: grid;
   margin-top: 30px;
 }
 
-.css {
+.css-1,
+.css-2,
+.css-3,
+.css-4 {
   grid-column: 1 / 1;
   font-family: "Inter", sans-serif;
   color: white;
   font-size: 14px;
   list-style-type: none;
-  margin-left: -5px;
+  margin-left: -13px;
 }
 
 .liner {
@@ -246,14 +263,17 @@
   list-style-type: none;
 }
 
-.see {
+.see-1,
+.see-2,
+.see-3,
+.see-4 {
   background: #7d73fc;
   width: 85px;
   height: 45px;
   color: #edecff;
   font-size: 12px;
   font-family: "Roboto", sans-serif;
-  margin-left: 30px;
+  margin-left: 20px;
   margin-top: 30px;
   padding: 10px;
   border-color: #7d73fc;

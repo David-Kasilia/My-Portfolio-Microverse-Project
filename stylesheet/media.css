@@ -186,4 +186,242 @@
     margin-top: 20px;
 }
 
+.project-1 {
+   position: relative;
+}
+
+.sample-1 {
+    width: 684px;
+    height: 448px;
+    position: absolute;
+    left: 160px;
+    right: 20px;
+    top: 30px;
+  
+}
+
+.title-1{
+    color: white;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    margin-left: 400px;
+    margin-top: 60px;
+}
+
+.text-1 {
+    font-family: "Inter", sans-serif;
+    color: #dcdce8;
+    font-size: 18px;
+    position: absolute;
+    margin-top: 100px;
+    left: 860px;
+        right: 140px;
+        top: 30px;
+ 
+}
+
+.lang-1 {
+    display: grid;
+    position: absolute;
+    left: 790px;
+    margin-top: 160px;
+    gap: 30px;
+   
+ 
+}
+
+.css {
+    grid-column: 1 / 1;
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 14px;
+    list-style-type: none;
+   
+}
+
+.liner {
+    grid-column: 2 / 2;
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+    list-style-type: none;
+}
+
+.html {
+    grid-column: 3 / 3;
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 14px;
+    list-style-type: none;
+}
+
+.liner-2 {
+    grid-column: 4 / 4;
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+    list-style-type: none;
+}
+
+.boot {
+    grid-column: 5 / 5;
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 14px;
+    list-style-type: none;
+}
+
+.liner-3 {
+    grid-column: 6 / 6;
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+    list-style-type: none;
+}
+
+.ruby {
+    grid-column: 7 / 7;
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 14px;
+    list-style-type: none;
+}
+
+.see-1 {
+    background: #7d73fc;
+    width: 85px;
+    height: 45px;
+    color: #edecff;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    padding: 10px;
+    left: 870px;
+    margin-top: 255px;
+    border-color: #7d73fc;
+}
+.project-2 {
+    margin-top: 480px;
+    position: relative;
+}
+
+.sample-2 {
+    width: 684px;
+    height: 448px;
+    position: absolute;
+    right: 60px;
+    left: 800px;
+    top: 30px;
+
+}
+
+.title-2 {
+    color: white;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    margin-right: 400px;
+    margin-left: -640px;
+}
+
+.text-2 {
+    font-family: "Inter", sans-serif;
+    color: #dcdce8;
+    font-size: 18px;
+    position: absolute;
+    margin-top: 75px;
+    right: 810px;
+    left: 135px;
+    top: 20px;
+
+}
+
+.lang-2 {
+    display: grid;
+    position: absolute;   
+    left: 80px;
+    gap: 30px;
+    margin-top: 150px;
+}
+
+.css {
+    grid-column: 1 / 1;
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 14px;
+    list-style-type: none;
+    margin-left: 65px;
+}
+
+.liner {
+    grid-column: 2 / 2;
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+    list-style-type: none;
+}
+
+.html {
+    grid-column: 3 / 3;
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 14px;
+    list-style-type: none;
+}
+
+.liner-2 {
+    grid-column: 4 / 4;
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+    list-style-type: none;
+}
+
+.boot {
+    grid-column: 5 / 5;
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 14px;
+    list-style-type: none;
+}
+
+.liner-3 {
+    grid-column: 6 / 6;
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+    list-style-type: none;
+}
+
+.ruby {
+    grid-column: 7 / 7;
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 14px;
+    list-style-type: none;
+}
+
+.see-2 {
+    background: #7d73fc;
+    width: 85px;
+    height: 45px;
+    color: #edecff;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    padding: 10px;
+    left: 890px;
+    margin-top: -65px;
+    border-color: #7d73fc;
+}
+
+.project-3{
+    margin-top: 900px;
+}
+
 }
