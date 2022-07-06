@@ -31,69 +31,67 @@
     gap: 50px;
   }
 
-    .union {
-        margin-right: 100px;
-    }
+  .union {
+    margin-right: 100px;
+  }
 
-    .menu {
-        display: none;
-    }
+  .menu {
+    display: none;
+  }
 
-    .main-header,
-    article {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        align-items: center;
-    }
+  .main-header,
+  article {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
 
-    .main-header {
-        font-family: "Roboto", sans-serif;
-        color: #7c73fc;
-        font-size: 64px;
-        font-weight: 700;
-        margin-left: 15px;
-        margin-right: 15px;
-    }
+  .main-header {
+    font-family: "Roboto", sans-serif;
+    color: #7c73fc;
+    font-size: 64px;
+    font-weight: 700;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 
-    article {
-        font-family: "Roboto", sans-serif;
-        color: #ecebff;
-        font-size: 36px;
-        margin-top: -110px;
-        font-weight: 400;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
+  article {
+    font-family: "Roboto", sans-serif;
+    color: #ecebff;
+    font-size: 36px;
+    margin-top: -110px;
+    font-weight: 400;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 
-    .intro-text {
-        font-size: 20px;
-        display: block;
-        margin: auto;
-        text-align: center;
-        color: #c9c9d4;
-        font-family: "Roboto", sans-serif;
-        margin-top: 40px;
-        width: 447px;
-        height: 155px;
-    }
+  .intro-text {
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: #c9c9d4;
+    font-family: "Roboto", sans-serif;
+    margin-top: 40px;
+    width: 447px;
+    height: 155px;
+  }
 
 
- .lang-titles {
+  .lang-titles {
     color: #938fff;
     display: flex;
-   align-items: center;
+    align-items: center;
     font-size: 18px;
     list-style-type: none;
     font-weight: 500;
     margin-top: 30px; 
     margin-left: 440px;
     margin-right: 480px;
+  }
 
-                                
-    }
-        
-.skills {
+  .skills {
     color: #f5f5ff;
     display: flex;
     align-items: center;
@@ -101,44 +99,41 @@
     margin-top: -20px;
     list-style-type: none;
     margin-left: 530px;
-        margin-right: 500px;
-        
-}
+    margin-right: 500px;
 
-.circle{
+  }
+
+  .circle {
     position: absolute;
-width: 184px;
-height: 184px;
-left: 69px;
-top: 237px;
+    width: 184px;
+    height: 184px;
+    left: 69px;
+    top: 237px;
+    background: #EDECFF;
+    filter: blur(50px);
+  }
 
-background: #EDECFF;
-filter: blur(50px);
-}
-
-.circle-2{
-position: absolute;
+  .circle-2 {
+    position: absolute;
     width: 226px;
     height: 226px;
     left: 1143px;
     top: 546px;
-
     background: #EDECFF;
     filter: blur(50px);
+  }
 
-}
-        
-.list-one {
+  .list-one {
     list-style-type: none;
-}
+  }
 
-.contacts {
+  .contacts {
     display: flex;
     align-items: center;
     margin-top: 75px;
     margin-left: 660px;
-        margin-right: 500px;
-        width: 220px;
+    margin-right: 500px;
+    width: 220px;
 }
 
 .works {
@@ -148,20 +143,19 @@ position: absolute;
     font-size: 20px;
     color: #a2a3ae;
     margin-top: 35px;
-        margin-left: 280px;
-        text-align: left;
+    margin-left: 280px;
+    text-align: left;
 }
 
-.works-2{
+.works-2 {
     display: block;
     font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        text-align: right;
-        font-size: 20px;
-        margin-top: -55px;
-        margin-right: 220px;
-      
-        color: #a2a3ae;
+    font-weight: 400;
+    text-align: right;
+    font-size: 20px;
+    margin-top: -55px;
+    margin-right: 220px;
+    color: #a2a3ae;
 }
 
 .desktop-head {
@@ -174,12 +168,11 @@ position: absolute;
     margin-left: 185px;
     margin-right: 65px;
     margin-top: 90px;
-  
+
 }
 
-.mobile-head{
+.mobile-head {
     display: none;
-
 }
 
 .line-mobile {
@@ -191,12 +184,11 @@ position: absolute;
     margin-left: 175px;
     margin-right: 155px;
     margin-top: -10px;
-}
+    }
 .line-1 {
     display: block;
     margin-left: 550px;
     margin-right: 550px;
-    
     margin-top: 40px;
 }
 
@@ -209,7 +201,7 @@ position: absolute;
 
 .project-1,
 .project-3 {
-   position: relative;
+    position: relative;
 }
 
 
@@ -221,7 +213,7 @@ position: absolute;
     left: 160px;
     right: 20px;
     top: 30px;
-  
+
 }
 
 .title-1,
@@ -241,9 +233,8 @@ position: absolute;
     position: absolute;
     margin-top: 100px;
     left: 860px;
-        right: 140px;
-        top: 30px;
- 
+    right: 140px;
+    top: 30px;
 }
 
 .lang-1,
@@ -253,8 +244,6 @@ position: absolute;
     left: 790px;
     margin-top: 160px;
     gap: 30px;
-   
- 
 }
 
 .css {
@@ -263,7 +252,6 @@ position: absolute;
     color: white;
     font-size: 14px;
     list-style-type: none;
-   
 }
 
 .liner {
@@ -346,7 +334,6 @@ position: absolute;
     right: 60px;
     left: 800px;
     top: 30px;
-
 }
 
 .title-2,
@@ -368,7 +355,6 @@ position: absolute;
     right: 810px;
     left: 150px;
     top: 20px;
-
 }
 
 .lang-2,
@@ -421,7 +407,7 @@ position: absolute;
     color: white;
     font-size: 14px;
     list-style-type: none;
-}
+  }
 
 .liner-3 {
     grid-column: 6 / 6;
@@ -469,7 +455,7 @@ position: absolute;
 .text-email,
 .mess,
 .contacts-title {
-  display: none;
+    display: none;
 }
 
 .text-desk,
@@ -481,26 +467,25 @@ position: absolute;
 .desk-title{
     display: block;
     font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 40px;
-        text-align: center;
-        
-            color: #9390FF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #9390FF;
 }
 
 .contact-texts{
     font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 28px;
-        text-align: center;
-        color: #EBEBFF;
-        display: block;
-        margin: auto; 
-           width: 684px;
-           height: 61px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #EBEBFF;
+    display: block;
+    margin: auto; 
+    width: 684px;
+    height: 61px;
 }
 
 form{
@@ -512,20 +497,19 @@ form{
     width: 329px;
     height: 48px;
     left: 405px;
-        right: 0px;
-        top: 0px;
-        bottom: 0px;
-    
-        background: #F7F3FF;
-        border-radius: 2px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #F7F3FF;
+    border-radius: 2px;
 }
 
 .text-last{
     position: absolute;
     width: 327px;
-        height: 48px;
-        left: 765px;
-        background: #FFFFFF;
+    height: 48px;
+    left: 765px;
+    background: #FFFFFF;
 }
 
 .text-email-desk{
@@ -537,24 +521,24 @@ form{
 
 .mess-desk{
     position: absolute;
-        top: 150px;
-        width: 684px;
-        height: 136px;
+    top: 150px;
+    width: 684px;
+    height: 136px;
 }
 
 .submit-btn{
     display: block;
-        margin: auto;
-        background: #7d73fc;
-        width: 160px;
-        height: 48px;
-        color: #edecff;
-        font-size: 12px;
-        font-family: "Roboto", sans-serif;
-        position: absolute;
-        top: 370px;
-        padding: 10px;
-        border-color: #7d73fc;
+    margin: auto;
+    background: #7d73fc;
+    width: 160px;
+    height: 48px;
+    color: #edecff;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    top: 370px;
+    padding: 10px;
+    border-color: #7d73fc;
 }
 .line-bottom{
     margin-top: 500px;
@@ -565,12 +549,12 @@ form{
 }
 
 .contacts-bottom {
-display: flex;
+    display: flex;
     flex-direction: row;
     align-items: center;
- padding: 0px;
-width: 421px;
-margin: auto;
+    padding: 0px;
+    width: 421px;
+    margin: auto;
 }
 
 .email-mobile{
@@ -589,16 +573,12 @@ margin: auto;
 
 .ellipse-1{
     position: absolute;
-        width: 57.53px;
-        height: 700.92px;
-        left: -132px;
-        top: 1479.12px;
-    
-        background: #EDECFF;
-        filter: blur(50px);
-        transform: rotate(-36.38deg);
+    width: 57.53px;
+    height: 700.92px;
+    left: -132px;
+    top: 1479.12px;
+    background: #EDECFF;
+    filter: blur(50px);
+    transform: rotate(-36.38deg);
 }
-
-
-
 }
