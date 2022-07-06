@@ -334,7 +334,7 @@
     font-size: 24px;
     font-family: "Roboto", sans-serif;
     margin-right: 400px;
-    margin-left: -640px;
+    margin-left: -610px;
 }
 
 .text-2,
@@ -345,7 +345,7 @@
     position: absolute;
     margin-top: 75px;
     right: 810px;
-    left: 135px;
+    left: 150px;
     top: 20px;
 
 }
@@ -356,7 +356,7 @@
     position: absolute;   
     left: 80px;
     gap: 30px;
-    margin-top: 230px;
+    margin-top: 190px;
 }
 
 .css {
@@ -429,8 +429,8 @@
     font-family: "Roboto", sans-serif;
     position: absolute;
     padding: 10px;
-    margin-top: 355px;
-    left: 145px;
+    margin-top: 295px;
+    left: 160px;
     border-color: #7d73fc;
 }
 
