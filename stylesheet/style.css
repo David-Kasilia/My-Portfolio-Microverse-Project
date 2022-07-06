@@ -423,6 +423,7 @@ textarea {
   justify-content: space-evenly;
   flex-direction: row;
   margin-top: 50px;
+  margin-left: 125px;
   width: 200px;
 }
 
