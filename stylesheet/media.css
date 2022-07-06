@@ -114,32 +114,32 @@
 .contacts {
     display: flex;
     align-items: center;
-    margin-top: 95px;
-    margin-left: 540px;
+    margin-top: 75px;
+    margin-left: 660px;
         margin-right: 500px;
+        width: 220px;
 }
 
 .works {
     display: block;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    text-align: center;
     font-size: 20px;
-    margin-top: 40px;
     color: #a2a3ae;
-    margin-top: -28px;
-        margin-left: -980px;
+    margin-top: 35px;
+        margin-left: 280px;
+        text-align: left;
 }
 
 .works-2{
     display: block;
     font-family: "Roboto", sans-serif;
         font-weight: 400;
-        text-align: center;
-        font-size: 20px;
-        margin-top: -40px;
-        margin-right: 220px;
         text-align: right;
+        font-size: 20px;
+        margin-top: -55px;
+        margin-right: 220px;
+      
         color: #a2a3ae;
 }
 
@@ -543,12 +543,26 @@ form{
     display: none;
 }
 
-.contacts {
-    display: flex;
-    justify-content: space-evenly;
+.contacts-bottom {
+display: flex;
     flex-direction: row;
-    margin-top: 30px;
-    
+    align-items: center;
+    padding: 0px;
+width: 421px;
+margin: auto;
 }
 
+.email-mobile{
+    display: none;
+}
+
+.email-desk {
+    display: block;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ebebff;
+}
 }

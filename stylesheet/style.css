@@ -112,6 +112,9 @@
   justify-content: space-evenly;
   flex-direction: row;
   margin-top: 50px;
+  margin-left: 540px;
+    margin-right: 500px;
+    width: 200px;
 }
 
 .works {
@@ -369,7 +372,7 @@ textarea {
   margin-top: 40px;
 }
 
-.email {
+.email-mobile {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -382,5 +385,16 @@ textarea {
   display: block;
   margin: auto;
   margin-bottom: 30px;
+  width: 200px;
+}
+
+.email-desk{
+  display: none;
+}
+.contacts-bottom {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-top: 50px;
   width: 200px;
 }
