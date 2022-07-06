@@ -15,22 +15,31 @@
       href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./stylesheet/media.css">
   </head>
   <body>
     <nav>
-      <h4>David Kasilia Logo</h4>
-      <img
-        class="menu"
-        src="./images/menu_icon-removebg-preview.png"
-        alt="Menu Icon"
-      />
+      <h4 class="dev-name">David Kasilia Logo</h4>
+
+      <img class="menu" src="./images/menu-icon.png" alt="Menu Icon" />
+     
+      <ul class="menu-list">
+        <li>Portfolio</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li><img class="union" src="images/Union.png" alt="image of email icon"></li>
+      </ul>
+
     </nav>
 
     <section>
+
       <header class="main-header">
         <h1>David Kasilia</h1>
       </header>
+
     </section>
+
     <main>
       <article>
         <h2>Software Developer</h2>
@@ -97,11 +106,7 @@
 
     <section id="recent-work">
       <div class="project">
-        <img
-          class="sample"
-          src="./images/sample-image.png"
-          alt="Project Sample Image"
-        />
+        <img class="sample"  src="./images/sample-image.png" alt="Project Sample Image" />
         <h3 class="title">Multi-Post Stories</h3>
         <p class="text">
           A daily selection of privately personalized reads; no accounts or
@@ -149,11 +154,7 @@
       <button class="see" type="button">See Project</button>
 
       <div class="project">
-        <img
-          class="sample"
-          src="./images/sample-image.png"
-          alt="Project Sample Image"
-        />
+        <img class="sample" src="./images/sample-image.png" alt="Project Sample Image"/>
         <h3 class="title">Multi-Post Stories</h3>
         <p class="text">
           A daily selection of privately personalized reads; no accounts or
@@ -214,28 +215,11 @@
       <div class="forms">
         <form action="https://formspree.io/f/xdobrapq" method="post">
          
-              <input
-                type="text"
-                placeholder="Text Input"
-                required
-                maxlength="30"
-              />
+              <input type="text" placeholder="Text Input" required maxlength="30" />
             
-              <input
-              class="text-email"
-                type="email"
-                placeholder="jeremy@gmail.com"
-                required
-                maxlength="30"
-              />
+              <input class="text-email" type="email" placeholder="jeremy@gmail.com" required maxlength="30"/>
            
-              <textarea
-                name="message"
-                id="msg"
-                required
-                maxlength="500"
-                placeholder="Enter text here"
-              ></textarea>
+              <textarea name="message" id="msg" required  maxlength="500" placeholder="Enter text here"></textarea>
          
           <button type="submit" class="submit-btn">See Project</button>
         </form>
