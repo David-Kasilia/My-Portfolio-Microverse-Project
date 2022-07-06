@@ -15,16 +15,18 @@
  }
 
  nav {
-   color: white;
-   font-size: 18px;
    display: flex;
    justify-content: space-between;
    flex-direction: row;
-   font-family: "Roboto", sans-serif;
  }
 
  .dev-name{
+  font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
   margin-left: 40px;
+  color: white;
  }
 
  .main-header,
@@ -64,19 +66,17 @@
    margin-top: 20px;
  }        
 
-.line-text {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 390px;
-  margin-top: 40px;
-}
-
 .line-1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 390px;
+  margin-top: 40px;
+}
+
+.line-2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 20px;
 }
 
@@ -85,7 +85,7 @@
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  font-size: 18px;
+  font-size: 13px;
   list-style-type: none;
   margin-left: -75px;
   font-weight: 500;
@@ -97,7 +97,7 @@
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  font-size: 18px;
+  font-size: 15px;
   margin-top: -20px;
   margin-left: -10px;
   list-style-type: none;
@@ -123,7 +123,11 @@
   color: #a2a3ae;
 }
 
-header {
+.works-2{
+  display: none;
+}
+
+.mobile-head {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 34px;
@@ -133,12 +137,20 @@ header {
   margin-right: 15px;
 }
 
-.line {
+.desktop-head{
+  display: none;
+}
+
+.line-mobile {
   display: block;
   width: 390px;
-  margin-top: -40px;
+  margin-top: -20px;
   margin-left: 25px;
   margin-right: 10px;
+}
+
+.line-desktop{
+  display: none;
 }
 
 .project {
@@ -329,7 +341,7 @@ textarea {
   border-color: #7d73fc;
 }
 
-hr {
+.line-bottom {
   margin-top: 40px;
 }
 
