@@ -356,7 +356,7 @@
   .lang-2,
   .lang-4 {
     display: grid;
-    position: absolute; 
+    position: absolute;
     left: 80px;
     gap: 30px;
     margin-top: 190px;
@@ -391,10 +391,6 @@
     display: none;
   }
 
-  .desktop-form {
-    display: block;
- }
-
   .desk-title {
     display: block;
     font-family: "Roboto", sans-serif;
@@ -402,24 +398,25 @@
     font-weight: 700;
     font-size: 40px;
     text-align: center;
-    color: #9390FF;
+    color: #9390ff;
   }
 
-  .contact-texts{
+  .contact-texts {
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     text-align: center;
-    color: #EBEBFF;
+    color: #ebebff;
     display: block;
-    margin: auto; 
+    margin: auto;
     width: 684px;
     height: 61px;
   }
 
   .desktop-form {
+    display: block;
     position: relative;
   }
 
@@ -428,10 +425,7 @@
     width: 329px;
     height: 48px;
     left: 405px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
-    background: #F7F3FF;
+    background: #f7f3ff;
     border-radius: 2px;
   }
 
@@ -440,7 +434,7 @@
     width: 327px;
     height: 48px;
     left: 765px;
-    background: #FFFFFF;
+    background: #ffffff;
   }
 
   .text-email-desk {
@@ -484,7 +478,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
     width: 421px;
     margin: auto;
   }
@@ -509,7 +502,7 @@
     height: 700.92px;
     left: -132px;
     top: 1479.12px;
-    background: #EDECFF;
+    background: #edecff;
     filter: blur(50px);
     transform: rotate(-36.38deg);
   }

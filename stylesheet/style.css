@@ -131,7 +131,6 @@ article {
   justify-content: space-evenly;
   flex-direction: row;
   margin-top: 50px;
-  margin: auto;
   width: 200px;
 }
 
@@ -144,7 +143,7 @@ article {
   color: #a2a3ae;
 }
 
-.works-2{
+.works-2 {
   display: none;
 }
 
@@ -158,7 +157,7 @@ article {
   margin-right: 15px;
 }
 
-.desktop-head{
+.desktop-head {
   display: none;
 }
 
@@ -173,7 +172,7 @@ article {
   display: none;
 }
 
-.project-1, 
+.project-1,
 .project-2,
 .project-3,
 .project-4 {
