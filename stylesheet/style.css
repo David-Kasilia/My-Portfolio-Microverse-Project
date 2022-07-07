@@ -193,6 +193,13 @@ article {
   margin-left: 11px;
 }
 
+.sample-1:hover,
+.sample-2:hover,
+.sample-3:hover,
+.sample-4:hover {
+  transform: scale(0.7);
+}
+
 .title-1,
 .title-2,
 .title-3,
@@ -308,7 +315,7 @@ article {
   margin-left: 10px;
   margin-right: 10px;
   margin-top: -4px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -338,7 +345,7 @@ form > input {
   width: 367px;
   height: 48px;
   background: white;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -347,7 +354,7 @@ form > input {
 
 .text-email {
   color: #191765;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -359,7 +366,7 @@ textarea {
   margin-right: 10px;
   margin-left: 10px;
   margin-top: 15px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
