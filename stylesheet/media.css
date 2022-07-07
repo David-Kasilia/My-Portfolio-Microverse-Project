@@ -187,7 +187,7 @@
     font-weight: 400;
     font-size: 20px;
     color: #a2a3ae;
-    margin-top: 35px;
+    margin-top: -28px;
     margin-left: 280px;
     text-align: left;
   }
@@ -213,6 +213,17 @@
     margin-left: 185px;
     margin-right: 65px;
     margin-top: 90px;
+  }
+
+  .ellipse-1 {
+    position: absolute;
+    width: 47.53px;
+    height: 760.92px;
+    left: 72px;
+    top: 1009.12px;
+    background: #edecff;
+    filter: blur(50px);
+    transform: rotate(-36.38deg);
   }
 
   .mobile-head {
@@ -247,7 +258,7 @@
     width: 684px;
     height: 448px;
     position: absolute;
-    left: 160px;
+    left: 100px;
     right: 20px;
     top: 30px;
   }
@@ -257,8 +268,8 @@
     color: white;
     font-size: 24px;
     font-family: "Roboto", sans-serif;
-    margin-left: 560px;
-    margin-top: 60px;
+    margin-left: 400px;
+    margin-top: 70px;
   }
 
   .text-1,
@@ -268,7 +279,7 @@
     font-size: 18px;
     position: absolute;
     margin-top: 100px;
-    left: 860px;
+    left: 790px;
     right: 140px;
     top: 30px;
   }
@@ -277,7 +288,7 @@
   .lang-3 {
     display: grid;
     position: absolute;
-    left: 870px;
+    left: 800px;
     margin-top: 190px;
     gap: 30px;
   }
@@ -351,10 +362,22 @@
     font-family: "Roboto", sans-serif;
     position: absolute;
     padding: 10px;
-    left: 870px;
+    left: 800px;
     margin-top: 255px;
     border-color: #7d73fc;
   }
+
+  .ellipse-2{
+    position: absolute;
+    width: 108px;
+    height: 402px;
+    left: 1173.28px;
+    top: 1857.74px;
+    background: #EDECFF;
+    filter: blur(50px);
+    transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
+  }
+
 
   .project-2,
   .project-4 {
@@ -368,7 +391,7 @@
     height: 448px;
     position: absolute;
     right: 60px;
-    left: 700px;
+    left: 600px;
     top: 30px;
   }
 
@@ -378,7 +401,7 @@
     font-size: 24px;
     font-family: "Roboto", sans-serif;
     margin-right: 400px;
-    margin-left: -470px;
+    margin-left: -570px;
   }
 
   .text-2,
@@ -388,8 +411,8 @@
     font-size: 18px;
     position: absolute;
     margin-top: 75px;
-    right: 810px;
-    left: 150px;
+    right: 860px;
+    left: 100px;
     top: 20px;
   }
 
@@ -397,7 +420,7 @@
   .lang-4 {
     display: grid;
     position: absolute;
-    left: 160px;
+    left: 110px;
     gap: 30px;
     margin-top: 190px;
   }
@@ -413,12 +436,33 @@
     position: absolute;
     padding: 10px;
     margin-top: 295px;
-    left: 160px;
+    left: 110px;
     border-color: #7d73fc;
   }
 
   .project-3 {
     margin-top: 450px;
+  }
+
+  .ellipse-3{
+    position: absolute;
+    width: 208px;
+    height: 155px;
+    left: -51px;
+    top: 2548px;
+    background: #edecff;
+    filter: blur(50px);
+  }
+
+  .ellipse-4{
+    position: absolute;
+    width: 146.19px;
+    height: 496.38px;
+    left: 1090.3px;
+    top: 2734px;
+    background: #edecff;
+    filter: blur(50px);
+    transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
   }
 
   .contact-form-container {
@@ -515,6 +559,7 @@
 
   .line-bottom {
     margin-top: 500px;
+    color: gray;
   }
 
   .shape {
@@ -526,7 +571,10 @@
     flex-direction: row;
     align-items: center;
     width: 421px;
+    height: 20px;
     margin: auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
   }
 
   .email-mobile {
@@ -541,17 +589,6 @@
     font-weight: 400;
     font-size: 20px;
     color: #ebebff;
-  }
-
-  .ellipse-1 {
-    position: absolute;
-    width: 57.53px;
-    height: 700.92px;
-    left: -132px;
-    top: 1479.12px;
-    background: #edecff;
-    filter: blur(50px);
-    transform: rotate(-36.38deg);
   }
 
   .contacts-title {
