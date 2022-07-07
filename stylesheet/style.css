@@ -462,7 +462,7 @@ textarea:hover {
   from {
     transform: rotate(3.142rad);
   }
-  
+
   to {
     transform: rotate(0rad);
   }
