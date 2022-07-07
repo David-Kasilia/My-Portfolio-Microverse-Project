@@ -517,4 +517,9 @@
   .contacts-title {
     display: none;
   }
+
+  button:hover{
+    background-color: #191765;
+    transition: 0.5s;
+  }
 }
