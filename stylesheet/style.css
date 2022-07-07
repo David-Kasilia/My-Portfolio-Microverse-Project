@@ -1,15 +1,52 @@
-nav {
-  color: white;
-  font-size: 18px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  margin: 10px 20px 30px 20px;
-  font-family: "Roboto", sans-serif;
+body {
+  background-color: #191765;
 }
 
 .menu {
-  height: 50px;
+  display: block;
+  width: 35.33px;
+  height: 22.83px;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+.menu-list {
+  display: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.circle {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  left: -106px;
+  background: #edecff;
+  filter: blur(50px);
+}
+
+.circle-2 {
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  left: 339px;
+  top: 495px;
+  background: #edecff;
+  filter: blur(50px);
+}
+
+.dev-name {
+  animation: animated-text 4s;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  margin-left: 20px;
+  color: white;
 }
 
 .main-header,
@@ -41,27 +78,25 @@ article {
 
 .intro-text {
   font-size: 17px;
+  display: block;
+  margin: auto;
   text-align: center;
   color: #c9c9d4;
-  margin-left: 15px;
-  margin-right: 15px;
   font-family: "Roboto", sans-serif;
   margin-top: 20px;
-}
-
-.line-text {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 390px;
-  margin-top: 40px;
 }
 
 .line-1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 390px;
+  margin-top: 40px;
+}
+
+.line-2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 20px;
 }
 
@@ -70,7 +105,7 @@ article {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  font-size: 18px;
+  font-size: 13px;
   list-style-type: none;
   margin-left: -75px;
   font-weight: 500;
@@ -82,7 +117,7 @@ article {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  font-size: 18px;
+  font-size: 15px;
   margin-top: -20px;
   margin-left: -10px;
   list-style-type: none;
@@ -97,6 +132,8 @@ article {
   justify-content: space-evenly;
   flex-direction: row;
   margin-top: 50px;
+  margin-left: 90px;
+  width: 200px;
 }
 
 .works {
@@ -108,15 +145,11 @@ article {
   color: #a2a3ae;
 }
 
-body {
-  max-width: 600px;
-  background-image: url(../images/text_cleanup.PNG);
-  background-repeat: repeat-y;
-  background-size: 100%;
-  margin: auto;
+.works-2 {
+  display: none;
 }
 
-header {
+.mobile-head {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 34px;
@@ -126,15 +159,25 @@ header {
   margin-right: 15px;
 }
 
-.line {
+.desktop-head {
+  display: none;
+}
+
+.line-mobile {
   display: block;
-  width: 390px;
-  margin-top: -40px;
+  margin-top: -20px;
   margin-left: 25px;
   margin-right: 10px;
 }
 
-.project {
+.line-desktop {
+  display: none;
+}
+
+.project-1,
+.project-2,
+.project-3,
+.project-4 {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -142,27 +185,46 @@ header {
   align-items: center;
 }
 
-.sample {
+.sample-1,
+.sample-2,
+.sample-3,
+.sample-4 {
   width: 360px;
   height: 195px;
-  margin-left: -31px;
+  margin-left: 11px;
 }
 
-.title {
+.sample-1:hover,
+.sample-2:hover,
+.sample-3:hover,
+.sample-4:hover {
+  transform: scale(0.7);
+}
+
+.title-1,
+.title-2,
+.title-3,
+.title-4 {
   color: white;
   font-size: 24px;
   font-family: "Roboto", sans-serif;
-  margin-left: -192px;
+  margin-left: -145px;
 }
 
-.text {
+.text-1,
+.text-2,
+.text-3,
+.text-4 {
   font-family: "Inter", sans-serif;
   color: #dcdce8;
   font-size: 18px;
-  margin: 5px 18px 1px 30px;
+  margin: 5px 18px 1px 25px;
 }
 
-.lang {
+.lang-1,
+.lang-2,
+.lang-3,
+.lang-4 {
   display: grid;
   margin-top: 30px;
 }
@@ -173,7 +235,7 @@ header {
   color: white;
   font-size: 14px;
   list-style-type: none;
-  margin-left: -5px;
+  margin-left: -13px;
 }
 
 .liner {
@@ -227,14 +289,17 @@ header {
   list-style-type: none;
 }
 
-.see {
+.see-1,
+.see-2,
+.see-3,
+.see-4 {
   background: #7d73fc;
   width: 85px;
   height: 45px;
   color: #edecff;
   font-size: 12px;
   font-family: "Roboto", sans-serif;
-  margin-left: 30px;
+  margin-left: 20px;
   margin-top: 30px;
   padding: 10px;
   border-color: #7d73fc;
@@ -251,7 +316,7 @@ header {
   margin-left: 10px;
   margin-right: 10px;
   margin-top: -4px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -281,7 +346,7 @@ form > input {
   width: 367px;
   height: 48px;
   background: white;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -290,7 +355,7 @@ form > input {
 
 .text-email {
   color: #191765;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -302,10 +367,17 @@ textarea {
   margin-right: 10px;
   margin-left: 10px;
   margin-top: 15px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
+}
+
+.text-desk,
+.text-last,
+.test-email-desk,
+.mess-desk {
+  display: none;
 }
 
 .submit-btn {
@@ -322,11 +394,11 @@ textarea {
   border-color: #7d73fc;
 }
 
-hr {
+.line-bottom {
   margin-top: 40px;
 }
 
-.email {
+.email-mobile {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -340,4 +412,58 @@ hr {
   margin: auto;
   margin-bottom: 30px;
   width: 200px;
+}
+
+.email-desk {
+  display: none;
+}
+
+.desk-title {
+  display: none;
+}
+
+.desktop-form {
+  display: none;
+}
+
+.contacts-bottom {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: auto;
+  width: 200px;
+}
+
+.ellipse-1 {
+  position: absolute;
+  width: 39.61px;
+  height: 482.57px;
+  left: -112.04px;
+  top: 1624.71px;
+  background: #edecff;
+  filter: blur(50px);
+  transform: rotate(-36.38deg);
+}
+
+button:hover {
+  background-color: #191765;
+  transition: 0.5s;
+}
+
+input:hover {
+  transform: translate(2.5rem, 2ex);
+}
+
+textarea:hover {
+  transform: translate(2.5rem, 2ex);
+}
+
+@keyframes animated-text {
+  from {
+    transform: rotate(3.142rad);
+  }
+
+  to {
+    transform: rotate(0rad);
+  }
 }
