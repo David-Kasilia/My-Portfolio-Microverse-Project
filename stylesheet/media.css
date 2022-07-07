@@ -2,7 +2,7 @@
   body {
     background-color: #191765;
   }
- 
+
   nav {
     display: flex;
     justify-content: space-between;
@@ -85,7 +85,7 @@
     font-size: 18px;
     list-style-type: none;
     font-weight: 500;
-    margin-top: 30px; 
+    margin-top: 30px;
     margin-left: 440px;
     margin-right: 480px;
   }
@@ -166,7 +166,6 @@
     margin-left: 185px;
     margin-right: 65px;
     margin-top: 90px;
-
   }
 
   .mobile-head {
@@ -211,7 +210,7 @@
     left: 160px;
     right: 20px;
     top: 30px;
- }
+  }
 
   .title-1,
   .title-3 {
@@ -357,70 +356,10 @@
   .lang-2,
   .lang-4 {
     display: grid;
-    position: absolute;   
+    position: absolute; 
     left: 80px;
     gap: 30px;
     margin-top: 190px;
-  }
-
-  .css {
-    grid-column: 1 / 1;
-    font-family: "Inter", sans-serif;
-    color: white;
-    font-size: 14px;
-    list-style-type: none;
-    margin-left: 65px;
-  }
-
-  .liner {
-    grid-column: 2 / 2;
-    font-family: "Inter", sans-serif;
-    color: white;
-    font-size: 14px;
-    font-weight: 200;
-    list-style-type: none;
-  }
-
-  .html {
-    grid-column: 3 / 3;
-    font-family: "Inter", sans-serif;
-    color: white;
-    font-size: 14px;
-    list-style-type: none;
-  }
-
-  .liner-2 {
-    grid-column: 4 / 4;
-    font-family: "Inter", sans-serif;
-    color: white;
-    font-size: 14px;
-    font-weight: 200;
-    list-style-type: none;
-  }
-
-  .boot {
-    grid-column: 5 / 5;
-    font-family: "Inter", sans-serif;
-    color: white;
-    font-size: 14px;
-    list-style-type: none;
-  }
-
-  .liner-3 {
-    grid-column: 6 / 6;
-    font-family: "Inter", sans-serif;
-    color: white;
-    font-size: 14px;
-    font-weight: 200;
-    list-style-type: none;
-  }
-
-  .ruby {
-    grid-column: 7 / 7;
-    font-family: "Inter", sans-serif;
-    color: white;
-    font-size: 14px;
-    list-style-type: none;
   }
 
   .see-2,
@@ -458,7 +397,7 @@
 
   .desk-title {
     display: block;
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -467,7 +406,7 @@
   }
 
   .contact-texts{
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;

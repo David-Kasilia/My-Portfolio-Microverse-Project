@@ -1,6 +1,6 @@
 body {
   background-color: #191765;
- }
+}
 
 .menu {
   display: block;
@@ -14,10 +14,10 @@ body {
   display: none;
 }
 
- nav {
-   display: flex;
-   justify-content: space-between;
-   flex-direction: row;
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
 .circle {
@@ -25,8 +25,7 @@ body {
   width: 160px;
   height: 160px;
   left: -106px;
-  top: 0px;
-  background: #EDECFF;
+  background: #edecff;
   filter: blur(50px);
 }
 
@@ -36,7 +35,7 @@ body {
   height: 68px;
   left: 339px;
   top: 495px;
-  background: #EDECFF;
+  background: #edecff;
   filter: blur(50px);
 }
 
@@ -84,7 +83,7 @@ article {
   color: #c9c9d4;
   font-family: "Roboto", sans-serif;
   margin-top: 20px;
-} 
+}
 
 .line-1 {
   display: block;
@@ -170,7 +169,7 @@ article {
   margin-right: 10px;
 }
 
-.line-desktop{
+.line-desktop {
   display: none;
 }
 
