@@ -78,16 +78,63 @@
     height: 155px;
   }
 
+  .skill-1 {
+    display: flex;
+    flex-direction: column;
+    height: 168px;
+    width: 123px;
+    list-style-type: none;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    gap: 12px;
+    margin-left: 460px;
+  }
+
+  .skill-2{
+    display: flex;
+    flex-direction: column;
+    height: 214px;
+    width: 153px;
+    list-style-type: none;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    gap: 12px;
+    margin-left: 600px;
+    margin-top: -182px;
+  }
+
+  .skill-3{
+    display: flex;
+    flex-direction: column;
+    height: 224px;
+    width: 122px;
+    list-style-type: none;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    gap: 14px;
+    margin-left: 770px;
+    margin-top: -230px;
+  }
+
   .lang-titles {
-    color: #938fff;
     display: flex;
     align-items: center;
+    font-family: "Roboto", sans-serif;
+    color: #938fff;
     font-size: 18px;
     list-style-type: none;
-    font-weight: 500;
-    margin-top: 30px;
-    margin-left: 440px;
-    margin-right: 480px;
+    font-weight: 700;
+    height: 16px;
+    margin-top: 15px;
   }
 
   .skills {
@@ -128,10 +175,10 @@
   .contacts {
     display: flex;
     align-items: center;
-    margin-top: 75px;
-    margin-left: 660px;
-    margin-right: 500px;
+    margin: auto;
     width: 220px;
+    height: 40px;
+    padding-top: 80px;
   }
 
   .works {
@@ -183,18 +230,11 @@
     margin-top: -10px;
   }
 
-  .line-1 {
-    display: block;
-    margin-left: 550px;
-    margin-right: 550px;
-    margin-top: 40px;
-  }
-
+  .line-1,
   .line-2 {
     display: block;
-    margin-left: 550px;
-    margin-right: 550px;
-    margin-top: 20px;
+    width: 448px;
+    margin: auto;
   }
 
   .project-1,
