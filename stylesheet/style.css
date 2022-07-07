@@ -40,6 +40,7 @@ nav {
 }
 
 .dev-name {
+  animation: animated-text 4s;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -449,16 +450,12 @@ button:hover {
   transition: 0.5s;
 }
 
-input:hover{
+input:hover {
   transform: translate(2.5rem, 2ex);
 }
 
-textarea:hover{
+textarea:hover {
   transform: translate(2.5rem, 2ex);
-}
-
-.dev-name {
-  animation: animated-text 4s;
 }
 
 @keyframes animated-text {
@@ -469,7 +466,3 @@ textarea:hover{
     transform: rotate(0rad);
   }
 }
-
-
-
-
