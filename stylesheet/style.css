@@ -131,6 +131,7 @@ article {
   justify-content: space-evenly;
   flex-direction: row;
   margin-top: 50px;
+  margin-left: 90px;
   width: 200px;
 }
 

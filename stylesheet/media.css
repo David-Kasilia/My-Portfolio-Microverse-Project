@@ -217,7 +217,7 @@
     color: white;
     font-size: 24px;
     font-family: "Roboto", sans-serif;
-    margin-left: 400px;
+    margin-left: 560px;
     margin-top: 60px;
   }
 
@@ -237,8 +237,8 @@
   .lang-3 {
     display: grid;
     position: absolute;
-    left: 790px;
-    margin-top: 160px;
+    left: 870px;
+    margin-top: 190px;
     gap: 30px;
   }
 
@@ -328,7 +328,7 @@
     height: 448px;
     position: absolute;
     right: 60px;
-    left: 800px;
+    left: 700px;
     top: 30px;
   }
 
@@ -338,7 +338,7 @@
     font-size: 24px;
     font-family: "Roboto", sans-serif;
     margin-right: 400px;
-    margin-left: -610px;
+    margin-left: -470px;
   }
 
   .text-2,
@@ -357,7 +357,7 @@
   .lang-4 {
     display: grid;
     position: absolute;
-    left: 80px;
+    left: 160px;
     gap: 30px;
     margin-top: 190px;
   }
@@ -420,35 +420,41 @@
     position: relative;
   }
 
-  .text-desk{
+  .text-desk {
+    display: block;
     position: absolute;
     width: 329px;
     height: 48px;
-    left: 405px;
+    left: 350px;
     background: #f7f3ff;
     border-radius: 2px;
   }
 
   .text-last {
+    display: block;
     position: absolute;
     width: 327px;
     height: 48px;
-    left: 765px;
-    background: #ffffff;
+    left: 705px;
+    background: #fff;
   }
 
   .text-email-desk {
+    display: block;
     position: absolute;
     width: 684px;
     height: 48px;
     top: 75px;
+    left: 348px;
   }
 
   .mess-desk {
+    display: block;
     position: absolute;
     top: 150px;
     width: 684px;
     height: 136px;
+    left: 358px;
   }
 
   .submit-btn {
@@ -464,6 +470,7 @@
     top: 370px;
     padding: 10px;
     border-color: #7d73fc;
+    left: 630px;
   }
 
   .line-bottom {
@@ -505,5 +512,9 @@
     background: #edecff;
     filter: blur(50px);
     transform: rotate(-36.38deg);
+  }
+
+  .contacts-title {
+    display: none;
   }
 }
