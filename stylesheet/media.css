@@ -93,7 +93,7 @@
     margin-left: 460px;
   }
 
-  .skill-2{
+  .skill-2 {
     display: flex;
     flex-direction: column;
     height: 214px;
@@ -109,7 +109,7 @@
     margin-top: -182px;
   }
 
-  .skill-3{
+  .skill-3 {
     display: flex;
     flex-direction: column;
     height: 224px;
@@ -367,17 +367,16 @@
     border-color: #7d73fc;
   }
 
-  .ellipse-2{
+  .ellipse-2 {
     position: absolute;
     width: 108px;
     height: 402px;
     left: 1173.28px;
     top: 1857.74px;
-    background: #EDECFF;
+    background: #edecff;
     filter: blur(50px);
     transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
   }
-
 
   .project-2,
   .project-4 {
@@ -444,7 +443,7 @@
     margin-top: 450px;
   }
 
-  .ellipse-3{
+  .ellipse-3 {
     position: absolute;
     width: 208px;
     height: 155px;
@@ -454,7 +453,7 @@
     filter: blur(50px);
   }
 
-  .ellipse-4{
+  .ellipse-4 {
     position: absolute;
     width: 146.19px;
     height: 496.38px;
