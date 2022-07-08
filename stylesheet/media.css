@@ -92,7 +92,6 @@
     color: white;
     gap: 12px;
     margin-left: 460px;
-    
   }
 
   .skill-2 {
@@ -484,10 +483,6 @@
     flex-direction: column;
   }
 
-  .mobile-form {
-    display: none;
-  }
-
   .desk-title {
     display: block;
     font-family: "Roboto", sans-serif;
@@ -591,7 +586,7 @@
     margin: auto;
     padding-top: 30px;
     padding-bottom: 20px;
-    gap: 20px
+    gap: 20px;
   }
 
   .email-mobile {
