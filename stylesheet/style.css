@@ -41,7 +41,6 @@ nav {
 }
 
 .dev-name {
-  animation: animated-text 4s;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -243,13 +242,6 @@ article {
   margin-left: 11px;
 }
 
-.sample-1:hover,
-.sample-2:hover,
-.sample-3:hover,
-.sample-4:hover {
-  transform: scale(0.7);
-}
-
 .title-1,
 .title-2,
 .title-3,
@@ -365,7 +357,7 @@ article {
   margin-left: 10px;
   margin-right: 10px;
   margin-top: -4px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -396,7 +388,7 @@ form > input {
   width: 367px;
   height: 48px;
   background: white;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -405,7 +397,7 @@ form > input {
 
 .text-email {
   color: #191765;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -417,7 +409,7 @@ textarea {
   margin-right: 10px;
   margin-left: 10px;
   margin-top: 15px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -494,4 +486,36 @@ textarea {
   background: #edecff;
   filter: blur(50px);
   transform: rotate(-36.38deg);
+}
+
+.ellipse-2 {
+  position: absolute;
+  width: 71px;
+  height: 262px;
+  left: 373.28px;
+  top: 1857.74px;
+  background: #edecff;
+  filter: blur(50px);
+  transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
+}
+
+.ellipse-3 {
+  position: absolute;
+  width: 108px;
+  height: 155px;
+  left: -11px;
+  top: 2448px;
+  background: #edecff;
+  filter: blur(50px);
+}
+
+.ellipse-4 {
+  position: absolute;
+  width: 101.19px;
+  height: 377.38px;
+  left: 390.3px;
+  top: 3104px;
+  background: #edecff;
+  filter: blur(50px);
+  transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
 }
