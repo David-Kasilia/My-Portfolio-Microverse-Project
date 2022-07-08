@@ -24,7 +24,8 @@ nav {
   position: absolute;
   width: 160px;
   height: 160px;
-  left: -106px;
+  left: -96px;
+  top: 89px;
   background: #edecff;
   filter: blur(50px);
 }
@@ -33,8 +34,8 @@ nav {
   position: absolute;
   width: 68px;
   height: 68px;
-  left: 339px;
-  top: 495px;
+  left: 379px;
+  top: 515px;
   background: #edecff;
   filter: blur(50px);
 }
@@ -100,16 +101,63 @@ article {
   margin-top: 20px;
 }
 
-.lang-titles {
-  color: #938fff;
+.skill-1 {
   display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  font-size: 13px;
+  flex-direction: column;
+  height: 168px;
+  width: 123px;
   list-style-type: none;
-  margin-left: -75px;
-  font-weight: 500;
-  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  gap: 12px;
+  margin-left: 20px;
+}
+
+.skill-2 {
+  display: flex;
+  flex-direction: column;
+  height: 214px;
+  width: 153px;
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  gap: 12px;
+  margin-left: 180px;
+  margin-top: -182px;
+}
+
+.skill-3 {
+  display: flex;
+  flex-direction: column;
+  height: 224px;
+  width: 122px;
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  gap: 14px;
+  margin-left: 20px;
+  margin-top: -50px;
+}
+
+.lang-titles {
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  color: #938fff;
+  font-size: 18px;
+  list-style-type: none;
+  font-weight: 700;
+  height: 16px;
+  margin-top: 15px;
 }
 
 .skills {
@@ -322,6 +370,7 @@ article {
   font-weight: 500;
   font-size: 32px;
   color: #9390ff;
+  margin-top: 150px;
 }
 
 form {
@@ -425,15 +474,48 @@ textarea {
   flex-direction: row;
   margin: auto;
   width: 200px;
+  padding-top: 20px;
 }
 
 .ellipse-1 {
   position: absolute;
   width: 39.61px;
   height: 482.57px;
-  left: -112.04px;
-  top: 1624.71px;
+  left: -62.04px;
+  top: 1114.71px;
   background: #edecff;
   filter: blur(50px);
   transform: rotate(-36.38deg);
+}
+
+.ellipse-2 {
+  position: absolute;
+  width: 71px;
+  height: 262px;
+  left: 373.28px;
+  top: 1857.74px;
+  background: #edecff;
+  filter: blur(50px);
+  transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
+}
+
+.ellipse-3 {
+  position: absolute;
+  width: 108px;
+  height: 155px;
+  left: -11px;
+  top: 2448px;
+  background: #edecff;
+  filter: blur(50px);
+}
+
+.ellipse-4 {
+  position: absolute;
+  width: 101.19px;
+  height: 377.38px;
+  left: 390.3px;
+  top: 3104px;
+  background: #edecff;
+  filter: blur(50px);
+  transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
 }
