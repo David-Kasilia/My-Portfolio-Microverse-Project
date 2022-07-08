@@ -32,10 +32,10 @@ Day 4  Week 1 Project Of Creating A Portfolio Mobile Version Second Milestone Us
             <li>images directory to store the images used in creating this project.</li>
             <li>stylesheet directory to store the style.css file for styling the website</li>
             <li>index.html to write the HTML code.</li>
-        <ul></li>
+        </ul>
 <li>Merged setup-project with the main branch
 <li>Created the initialization-project branch to build the project code.</li>
-<li>Opened the folder Using VSCode.<li>
+<li>Opened the folder Using VSCode.</li>
 <li>Completed the HTML code first</li>
 <li>Completed the CSS part.</li>
 </ol>
@@ -56,8 +56,7 @@ I tested the website by running the code to a live server and opened it with Moz
 My Recent Work Responsive Section (Mobile Version)
 
 ![Image of the mobile version about me section](./images/responsive-b.PNG)
-About Me Responsive Section (Mobile Version)
-![Recent Image](./images/top-part.PNG)
+
 # Authors
 David Kasilia Mwanzia
 <ul>
