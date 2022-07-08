@@ -456,7 +456,7 @@ textarea {
   width: 200px;
 }
 
-.email-desk {
+.text-email-desk {
   display: none;
 }
 
@@ -472,9 +472,14 @@ textarea {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  margin: auto;
   width: 200px;
-  padding-top: 20px;
+  align-items: center;
+  margin-left: 110px;
+  margin-top: 30px;
+}
+
+.email-desk {
+  display: none;
 }
 
 .ellipse-1 {
@@ -518,4 +523,8 @@ textarea {
   background: #edecff;
   filter: blur(50px);
   transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
+}
+
+a {
+  text-decoration: none;
 }

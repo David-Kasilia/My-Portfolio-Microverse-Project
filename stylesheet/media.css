@@ -1,5 +1,6 @@
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   body {
+    width: 100%;
     background-color: #191765;
   }
 
@@ -91,6 +92,7 @@
     color: white;
     gap: 12px;
     margin-left: 460px;
+    
   }
 
   .skill-2 {
@@ -268,8 +270,10 @@
     color: white;
     font-size: 24px;
     font-family: "Roboto", sans-serif;
-    margin-left: 400px;
+    margin-left: 630px;
     margin-top: 70px;
+    width: 448px;
+    height: 105px;
   }
 
   .text-1,
@@ -282,6 +286,8 @@
     left: 790px;
     right: 140px;
     top: 30px;
+    width: 448px;
+    height: 140px;
   }
 
   .lang-1,
@@ -289,8 +295,10 @@
     display: grid;
     position: absolute;
     left: 800px;
-    margin-top: 190px;
+    margin-top: 120px;
     gap: 30px;
+    width: 307px;
+    height: 40px;
   }
 
   .css {
@@ -363,7 +371,7 @@
     position: absolute;
     padding: 10px;
     left: 800px;
-    margin-top: 255px;
+    margin-top: 235px;
     border-color: #7d73fc;
   }
 
@@ -372,7 +380,7 @@
     width: 108px;
     height: 402px;
     left: 1173.28px;
-    top: 1857.74px;
+    top: 2057.74px;
     background: #edecff;
     filter: blur(50px);
     transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
@@ -400,7 +408,9 @@
     font-size: 24px;
     font-family: "Roboto", sans-serif;
     margin-right: 400px;
-    margin-left: -570px;
+    margin-left: -345px;
+    width: 448px;
+    height: 105px;
   }
 
   .text-2,
@@ -413,6 +423,8 @@
     right: 860px;
     left: 100px;
     top: 20px;
+    width: 448px;
+    height: 140px;
   }
 
   .lang-2,
@@ -421,7 +433,9 @@
     position: absolute;
     left: 110px;
     gap: 30px;
-    margin-top: 190px;
+    margin-top: 120px;
+    width: 307px;
+    height: 40px;
   }
 
   .see-2,
@@ -434,7 +448,7 @@
     font-family: "Roboto", sans-serif;
     position: absolute;
     padding: 10px;
-    margin-top: 295px;
+    margin-top: 245px;
     left: 110px;
     border-color: #7d73fc;
   }
@@ -448,7 +462,7 @@
     width: 208px;
     height: 155px;
     left: -51px;
-    top: 2548px;
+    top: 2648px;
     background: #edecff;
     filter: blur(50px);
   }
@@ -458,7 +472,7 @@
     width: 146.19px;
     height: 496.38px;
     left: 1090.3px;
-    top: 2734px;
+    top: 2934px;
     background: #edecff;
     filter: blur(50px);
     transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
@@ -498,7 +512,7 @@
     height: 61px;
   }
 
-  .desktop-form {
+  .mobile-form {
     display: block;
     position: relative;
   }
@@ -561,7 +575,10 @@
     color: gray;
   }
 
-  .shape {
+  .shape,
+  .text,
+  .text-email,
+  .mess {
     display: none;
   }
 
@@ -574,6 +591,7 @@
     margin: auto;
     padding-top: 30px;
     padding-bottom: 20px;
+    gap: 20px
   }
 
   .email-mobile {
@@ -588,6 +606,7 @@
     font-weight: 400;
     font-size: 20px;
     color: #ebebff;
+    margin-top: 15px;
   }
 
   .contacts-title {
