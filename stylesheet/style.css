@@ -528,3 +528,26 @@ textarea {
 a {
   text-decoration: none;
 }
+
+button:hover {
+  background-color: #191765;
+  transition: 0.5s;
+}
+
+input:hover {
+  transform: translate(2.5rem, 2ex);
+}
+
+textarea:hover {
+  transform: translate(2.5rem, 2ex);
+}
+
+@keyframes animated-text {
+  from {
+    transform: rotate(3.142rad);
+  }
+
+  to {
+    transform: rotate(0rad);
+  }
+}
