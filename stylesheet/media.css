@@ -566,7 +566,7 @@
   }
 
   .line-bottom {
-    margin-top: 500px;
+    margin-top: 580px;
     color: gray;
   }
 
@@ -606,5 +606,18 @@
 
   .contacts-title {
     display: none;
+  }
+
+  .lang-container{
+    width: 446px;
+    height: 224px;
+    margin-left: 100px;
+    margin-right: 200px;
+  }
+
+  .forms{
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
   }
 }
