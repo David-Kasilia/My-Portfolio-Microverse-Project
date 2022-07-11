@@ -41,6 +41,7 @@ nav {
 }
 
 .dev-name {
+  animation: animated-text 4s;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -557,4 +558,5 @@ textarea:hover {
 .sample-3:hover,
 .sample-4:hover {
   transform: scale(0.7);
+
 }
