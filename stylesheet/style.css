@@ -551,3 +551,10 @@ textarea:hover {
     transform: rotate(0rad);
   }
 }
+
+.sample-1:hover,
+.sample-2:hover,
+.sample-3:hover,
+.sample-4:hover {
+  transform: scale(0.7);
+}
