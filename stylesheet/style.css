@@ -99,7 +99,7 @@ article {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
+  margin-top: 175px;
 }
 
 .skill-1 {
@@ -558,5 +558,9 @@ textarea:hover {
 .sample-3:hover,
 .sample-4:hover {
   transform: scale(0.7);
+}
 
+.lang-container {
+  width: 303px;
+  height: 214.15px;
 }
