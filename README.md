@@ -54,6 +54,32 @@ This Is The Image Of The Deployed Mobile Version Of The Project
 <li>Deployed the website using Github Pages.</li>
 </ol>
 
+# Web Accessibility
+Report on web accessibility checks:<br>
+We evaluated the projects with my coding patner <a href="https://github.com/peterboro">Peter</a> and saw the necessarry changes needed to be made on our projects.
+We used Wave a web accessibility evaluation report tool to get more insight on the project.<br>
+According to WAVE accessibility Evaluation Report:<br>
+<a href="https://wave.webaim.org/report#/https://david-kasilia.github.io/My-Portfolio-Microverse-Project/">Link To the report</a>
+
+Image below shows a summary of the report errors:
+        ![wave evaluation](https://user-images.githubusercontent.com/83514256/178513571-55f4df28-92b8-4aca-8a46-ecf68c08ba07.PNG)
+        
+## Issues That were found on web accessibility
+<ul>
+<li>Page titles: Changed to more descriptive page title that perfectly describes my project.</li>
+<li>Image text alternatives: Some Images had the same alternative text. I changed them to appropriate alternative text that fit the image.</li>
+<li>Text headings: I changed a text heding that didnot qualify to be a heading and gave it a proper element.</li>
+<li>Interaction: Added Lables for all the forms and set them to invisible.</li>
+</ul>
+
+## Issues That were not found on web accessibility
+<ul>
+<li>Resize: No issue found since the text resized well as the Firefox zoom works</li>
+<li>Color contrast: No issue found since the template was to be the same with figma</li>
+<li>The basic structure of the page: No issue found</li>
+</ul>
+
+
 # Run Tests
 I tested the website by running the code to a live server and opened it with Mozilla Firefox.To ensure the Webpage was responsive and was in a mobile version with both sections. I used the developer tools to see if it was responsive.
 
