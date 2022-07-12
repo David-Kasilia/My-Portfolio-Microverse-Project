@@ -252,6 +252,8 @@
   .project-1,
   .project-3 {
     position: relative;
+    width: 1156px;
+    height: 448px;
   }
 
   .sample-1,
@@ -269,8 +271,8 @@
     color: white;
     font-size: 24px;
     font-family: "Roboto", sans-serif;
-    margin-left: 630px;
-    margin-top: 70px;
+    margin-left: 950px;
+    margin-top: -95px;
     width: 448px;
     height: 105px;
   }
@@ -282,9 +284,9 @@
     font-size: 18px;
     position: absolute;
     margin-top: 100px;
-    left: 790px;
+    left: 810px;
     right: 140px;
-    top: 30px;
+    top: 80px;
     width: 448px;
     height: 140px;
   }
@@ -293,8 +295,8 @@
   .lang-3 {
     display: grid;
     position: absolute;
-    left: 800px;
-    margin-top: 120px;
+    left: 815px;
+    margin-top: -105px;
     gap: 30px;
     width: 307px;
     height: 40px;
@@ -369,8 +371,8 @@
     font-family: "Roboto", sans-serif;
     position: absolute;
     padding: 10px;
-    left: 800px;
-    margin-top: 235px;
+    left: 820px;
+    margin-top: -35px;
     border-color: #7d73fc;
   }
 
@@ -387,8 +389,10 @@
 
   .project-2,
   .project-4 {
-    margin-top: 480px;
+    margin-top: 200px;
     position: relative;
+    width: 1156px;
+    height: 448px;
   }
 
   .sample-2,
@@ -396,8 +400,8 @@
     width: 684px;
     height: 448px;
     position: absolute;
-    right: 60px;
-    left: 600px;
+    right: 40px;
+    left: 680px;
     top: 30px;
   }
 
@@ -407,7 +411,8 @@
     font-size: 24px;
     font-family: "Roboto", sans-serif;
     margin-right: 400px;
-    margin-left: -345px;
+    margin-left: -35px;
+    margin-top: -225px;
     width: 448px;
     height: 105px;
   }
@@ -418,9 +423,9 @@
     color: #dcdce8;
     font-size: 18px;
     position: absolute;
-    margin-top: 75px;
+    margin-top: 95px;
     right: 860px;
-    left: 100px;
+    left: 115px;
     top: 20px;
     width: 448px;
     height: 140px;
@@ -430,9 +435,9 @@
   .lang-4 {
     display: grid;
     position: absolute;
-    left: 110px;
+    left: 120px;
     gap: 30px;
-    margin-top: 120px;
+    margin-top: -130px;
     width: 307px;
     height: 40px;
   }
@@ -447,13 +452,13 @@
     font-family: "Roboto", sans-serif;
     position: absolute;
     padding: 10px;
-    margin-top: 245px;
-    left: 110px;
+    margin-top: -25px;
+    left: 130px;
     border-color: #7d73fc;
   }
 
   .project-3 {
-    margin-top: 450px;
+    margin-top: 150px;
   }
 
   .ellipse-3 {
@@ -478,7 +483,7 @@
   }
 
   .contact-form-container {
-    margin-top: 500px;
+    margin-top: 300px;
     display: flex;
     flex-direction: column;
   }
