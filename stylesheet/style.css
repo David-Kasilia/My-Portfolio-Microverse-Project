@@ -10,12 +10,10 @@ body {
   display: block;
   width: 35.33px;
   height: 22.83px;
-  margin-top: 20px;
+  margin-top: 55px;
   margin-right: 40px;
-}
-
-.show-menu{
-  
+  transform: translateY(-100%);
+  transition: transform 0.2s;
 }
 
 .menu-list {
@@ -26,6 +24,35 @@ nav {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+}
+
+.close{
+  display: none;
+}
+
+.hamburger {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+
+}
+
+.showMenu{
+  transform: translateY(0);
+}
+
+.menu-list {
+  display: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.union{
+  display: none;
 }
 
 .circle {
