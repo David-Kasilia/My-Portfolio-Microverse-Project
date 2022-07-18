@@ -12,8 +12,6 @@ body {
   height: 22.83px;
   margin-top: 20px;
   margin-right: 40px;
-  transform: translateY(-100%);
-  transition: transform 0.2s;
 }
 
 .menu-list {
@@ -24,17 +22,6 @@ nav {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-}
-
-.hamburger {
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-
-}
-
-.close {
-  display: none;
 }
 
 .circle {
@@ -581,3 +568,4 @@ textarea:hover {
   width: 303px;
   height: 214.15px;
 }
+
