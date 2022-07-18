@@ -5,7 +5,7 @@ const menuIcon = document.querySelector('.menu');
 const closeIcon = document.querySelector('.close');
 
 function mobileMenu() {
-  if (menu.classList.contains('show-menu')){
+  if (menu.classList.contains('show-menu')) {
     menu.classList.remove('show-menu');
     closeIcon.style.display = 'none';
     menuIcon.style.display = 'block';
@@ -16,10 +16,10 @@ function mobileMenu() {
   }
 }
 
-hamburger.addEventListener("click", mobileMenu);
+hamburger.addEventListener('click', mobileMenu);
 
 menuItems.forEach(
-  function dropMenu (menuItem) {
-    menuItem.addEventListener("click", mobileMenu);
+  function (menuItem) {
+    menuItem.addEventListener('click', mobileMenu);
   }
 );
