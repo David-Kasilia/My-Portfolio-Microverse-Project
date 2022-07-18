@@ -19,6 +19,5 @@ function mobileMenu() {
 hamburger.addEventListener('click', mobileMenu);
 
 menuItems.forEach(
-(menuItem) =>
-    menuItem.addEventListener('click', mobileMenu)
+  (menuItem) => menuItem.addEventListener('click', mobileMenu),
 );
