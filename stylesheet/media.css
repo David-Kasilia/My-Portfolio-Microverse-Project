@@ -23,7 +23,7 @@
   .desktop-menu {
     display: flex;
     width: 241px;
-height: 40px;
+    height: 40px;
     justify-content: space-evenly;
     flex-direction: row;
     list-style-type: none;
@@ -33,12 +33,12 @@ height: 40px;
     gap: 50px;
   }
 
-  .desk-link:visited {
+  .desk-link {
     color: white;
     text-decoration: none;
   }
   
-  .desk-link {
+  .desk-link:visited {
     color: white;
     text-decoration: none;
   }

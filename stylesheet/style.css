@@ -36,12 +36,12 @@ nav {
   cursor: pointer;
 }
 
-.menu-item{
-font-family: 'Roboto';
-margin-top: 70px;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
+.menu-item {
+  font-family: "Roboto", sans-serif;
+  margin-top: 70px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
 }
 
 .arrow {
@@ -66,17 +66,11 @@ a {
   display: none;
 }
 
-.show-menu{
+.show-menu {
   transform: translateY(0);
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-}
-
-.union{
+.union {
   display: none;
 }
 
@@ -586,10 +580,6 @@ textarea {
   transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
 }
 
-a {
-  text-decoration: none;
-}
-
 button:hover {
   background-color: #191765;
   transition: 0.5s;
@@ -630,6 +620,6 @@ textarea:hover {
   text-decoration: none;
 }
 
-.desktop-button{
+.desktop-button {
   display: none;
 }
