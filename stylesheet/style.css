@@ -6,28 +6,17 @@ body {
   background-color: #191765;
 }
 
-.menu {
-  display: block;
-  width: 35.33px;
-  height: 22.83px;
-  margin-top: 55px;
-  margin-right: 40px;
- 
-}
-
 .menu-list {
   position: fixed;
   transform: translateY(-100%);
-  transition: transform 0.2s;
+  transition: transform 0.4s;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 99;
-  background: black;
+  background: #191765;
   color: white;
   list-style: none;
-  padding-top: 4rem;
 }
 
 nav {
@@ -36,18 +25,48 @@ nav {
   flex-direction: row;
 }
 
-.close{
-  display: none;
-}
-
 .hamburger {
+  position: absolute;
+  width: 35.33px;
+  height: 22.83px;
+  margin-left: 350px;
+  margin-top: 20px;
   border: none;
   background-color: transparent;
   cursor: pointer;
-
 }
 
-.showMenu{
+.menu-item{
+font-family: 'Roboto';
+margin-top: 70px;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+}
+
+.arrow {
+  margin-left: 230px;
+}
+
+.arrow-2 {
+  margin-left: 260px;
+}
+
+.arrow-3 {
+  margin-left: 240px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.close,
+.desktop-menu {
+  display: none;
+}
+
+.show-menu{
   transform: translateY(0);
 }
 
@@ -606,3 +625,11 @@ textarea:hover {
   height: 214.15px;
 }
 
+.port-link:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.desktop-button{
+  display: none;
+}
