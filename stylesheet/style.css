@@ -24,6 +24,7 @@ body {
   right: 0;
   bottom: 0;
   z-index: 99;
+  background: black;
   color: white;
   list-style: none;
   padding-top: 4rem;
@@ -49,7 +50,6 @@ nav {
 .showMenu{
   transform: translateY(0);
 }
-
 
 nav {
   display: flex;
