@@ -21,14 +21,23 @@
     <nav>
       <h4 class="dev-name">David Kasilia Logo</h4>
 
-      <img class="menu" src="./images/menu-icon.png" alt="Menu Icon" />
-     
       <ul class="menu-list">
-        <li>Portfolio</li>
-        <li>About</li>
-        <li>Contact</li>
-        <li><img class="union" src="images/Union.png" alt="Email icon"></li>
+        <li class="menu-item"><a class="port-link" href="#main-header">Portfolio<img class="arrow" src="./images/arrow.png" alt="arrow key"/></a></li>
+        <li class="menu-item"><a class="port-link" href="#header">About<img class="arrow-2" src="./images/arrow.png" alt="arrow key"/></a></li>
+        <li class="menu-item"><a  class="port-link" href="#contact-me">Contact<img class="arrow-3"  src="./images/arrow.png" alt="arrow key"/></a></li>
       </ul>
+
+      <ul class="desktop-menu">
+        <li class="desk-item"><a class="desk-link" href="#main-header">Portfolio<img class="arrow" src="./images/arrow.png" alt="arrow key"/></a></li>
+        <li class="desk-item"><a class="desk-link" href="#header">About<img class="arrow-2" src="./images/arrow.png" alt="arrow key"/></a></li>
+        <li class="desk-item"><a  class="desk-link" href="#contact-me">Contact<img class="arrow-3"  src="./images/arrow.png" alt="arrow key"/></a></li>
+      </ul>
+      <img class="union" src="images/Union.png" alt="Email icon">
+
+      <button type="button" class="hamburger">
+        <img class="menu" src="./images/menu-icon.svg" alt="Menu Icon" />
+        <img class="close" src="./images/close-icon.png" alt="Close menu icon"/>
+      </button>
 
     </nav>
 
@@ -208,7 +217,7 @@
       <button class="see-4" type="button">See Project</button>
     </section>
 
-    <section>
+    <section id="contact-me">
       <div class="contact-form-container">
         <h2 class="contacts-title">CONTACT US</h2>
         <h2 class="desk-title">Let’s chat!</h2>
@@ -220,7 +229,7 @@
       </div>
     </section>
 
-    <section class="forms-container">
+    <div class="forms-container">
       <div class="forms">
         <form class="mobile-form" action="https://formspree.io/f/xdobrapq" method="post">
               <label id="text">Name;</label>
@@ -229,6 +238,9 @@
               <input class="text-email" type="email" placeholder="jeremy@gmail.com" required maxlength="30"/>
               <label id="message">Message;</label>
               <textarea class="mess" name="message"  required  maxlength="500" placeholder="Enter text here"></textarea>
+              <button type="submit" class="submit-btn">See Project</button>
+        </form>
+        <form class="mobile-form" action="https://formspree.io/f/xdobrapq" method="post">
               <label id="text-2">Name;</label>
               <input class="text-desk" type="text" placeholder="Jeremy" required maxlength="30" />
               <label id="text-3">Last Name;</label>
@@ -237,10 +249,10 @@
               <input class="text-email-desk" type="email" placeholder="Email Address" required maxlength="30" />
               <label id="message-2">Message;</label>
               <textarea class="mess-desk" name="message" required maxlength="500" placeholder="Write your message here"></textarea>
-              <button type="submit" class="submit-btn">See Project</button>
+              <button class="desktop-button" type="submit">See Project</button>
         </form>
       </div>
-    </section>
+    </div>
 
       <hr class="line-bottom"/>
 
@@ -255,7 +267,7 @@
       <a href="#"><h4 class="email-mobile">emailhere@email.com</h4></a>
       <img class="shape" src="./images/Shape.png" alt="Shape line" />
       
-   
+   <script src="./script.js"></script>
 
   </body>
 

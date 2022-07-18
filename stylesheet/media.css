@@ -1,6 +1,7 @@
 @media screen and (min-width: 768px) {
   body {
-    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
     background-color: #191765;
   }
 
@@ -12,6 +13,7 @@
 
   .dev-name {
     margin-left: 180px;
+    margin-top: 35px;
     color: white;
     font-size: 18px;
     font-family: "Roboto", sans-serif;
@@ -19,24 +21,55 @@
     font-weight: 500;
   }
 
-  .menu-list {
+  .desktop-menu {
     display: flex;
+    width: 241px;
+    height: 40px;
     justify-content: space-evenly;
     flex-direction: row;
     list-style-type: none;
+    position: relative;
+    top: 15px;
+    left: 350px;
+    gap: 50px;
+  }
+
+  .desk-link {
+    color: white;
+    text-decoration: none;
+  }
+
+  .desk-link:visited {
+    color: white;
+    text-decoration: none;
+  }
+
+  .desk-item {
+    display: block;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     color: white;
-    gap: 50px;
   }
 
   .union {
     margin-right: 100px;
+    display: block;
+    width: 25px;
+    height: 20px;
+    margin-top: 28px;
   }
 
-  .menu {
+  .arrow,
+  .arrow-2,
+  .arrow-3 {
+    display: none;
+  }
+
+  .show-menu,
+  .menu-list,
+  .hamburger {
     display: none;
   }
 
