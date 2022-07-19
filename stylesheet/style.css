@@ -625,3 +625,153 @@ textarea:hover {
 .desktop-button {
   display: none;
 }
+
+.mobile-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  height: 90%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 2px;
+  z-index: 10;
+  background: #ffffff29;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 48px 48px #252f8914;
+}
+
+.mobile-modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.mobile-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 278px;
+  height: 58px;
+}
+
+.mobile-modal-title {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  width: 226px;
+  height: 58px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.close-mobile-modal {
+  position: absolute;
+  left: 90%;
+  height: 30px;
+  width: 30px;
+  background: none;
+  border: none;
+  opacity: 1;
+}
+
+.mobile-modal-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.mobile-modal-image {
+  position: absolute;
+  width: 279px;
+  height: 181px;
+  left: calc(50% - 279px/2);
+  top: 70px;
+}
+
+.mobile-modal-text{
+  position: absolute;
+  top: 250px;
+  width: 279px;
+  height: 289px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.mobile-modal-lang{
+  position: absolute;
+  top: 480px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  width: 245px;
+  height: 41px;
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #00000080;
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.live-button{
+  position: absolute;
+  top: 550px;
+  display: flex;
+  padding: 12px;
+  align-items: flex-start;
+  gap: 12px;
+  width: 108px;
+  height: 48px;
+  background: #7D73FC;
+  box-shadow: 0px 8px 16px #7d73fc7a;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.src-button{
+  position: absolute;
+  top: 610px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  width: 124px;
+  height: 48px;
+  padding-top: 15px;
+  color: white;
+  background: #7D73FC;
+  box-shadow: 0px 8px 16px #7d73fc7a;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+
+.desktop-modal-image,
+.desktop-modal-text,
+.liner-4,
+.github-text{
+  display: none;
+}
