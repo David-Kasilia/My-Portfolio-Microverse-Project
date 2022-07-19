@@ -609,7 +609,7 @@ textarea:hover {
 .sample-2:hover,
 .sample-3:hover,
 .sample-4:hover {
-  transform: scale(0.7);
+  transform: scale(0.9);
 }
 
 .lang-container {
@@ -639,7 +639,7 @@ textarea:hover {
   z-index: 10;
   background: #ffffff29;
   border: 1px solid #ffffff;
-  box-shadow: 0px 48px 48px #252f8914;
+  box-shadow: 1px 48px 48px #252f8914;
 }
 
 .mobile-modal.active {
@@ -724,8 +724,8 @@ textarea:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #00000080;
   pointer-events: none;
+  background: #191765;
 }
 
 #overlay.active {
