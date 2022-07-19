@@ -25,35 +25,35 @@ menuItems.forEach(
   (menuItem) => menuItem.addEventListener('click', mobileMenu),
 );
 
-openMobileModal.forEach(button => {
+function openModal(modal) {
+  if (modal == null) return;
+  modal.classList.add('active');
+  overlay.classList.add('active');
+}
+
+openMobileModal.forEach((button) => {
   button.addEventListener('click', () => {
     const modal = document.querySelector(button.dataset.modalTarget);
     openModal(modal);
   });
 });
 
+function closeModal(modal) {
+  if (modal == null) return;
+  modal.classList.remove('active');
+  overlay.classList.remove('active');
+}
+
 overlay.addEventListener('click', () => {
   const modals = document.querySelectorAll('.mobile-modal.active');
-  modals.forEach(modal => {
+  modals.forEach((modal) => {
     closeModal(modal);
   });
 });
 
-closeMobileModal.forEach(button => {
+closeMobileModal.forEach((button) => {
   button.addEventListener('click', () => {
     const modal = button.closest('.mobile-modal');
     closeModal(modal);
   });
 });
-
-function openModal(modal) {
-  if (modal == null) return
-  modal.classList.add('active');
-  overlay.classList.add('active');
-}
-
-function closeModal(modal) {
-  if (modal == null) return
-  modal.classList.remove('active');
-  overlay.classList.remove('active');
-}

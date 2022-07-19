@@ -680,7 +680,6 @@ textarea:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .mobile-modal-image {
@@ -691,7 +690,7 @@ textarea:hover {
   top: 70px;
 }
 
-.mobile-modal-text{
+.mobile-modal-text {
   position: absolute;
   top: 250px;
   width: 279px;
@@ -701,10 +700,10 @@ textarea:hover {
   font-weight: 400;
   font-size: 16px;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
 }
 
-.mobile-modal-lang{
+.mobile-modal-lang {
   position: absolute;
   top: 480px;
   display: flex;
@@ -732,7 +731,7 @@ textarea:hover {
   pointer-events: all;
 }
 
-.live-button{
+.live-button {
   position: absolute;
   top: 550px;
   display: flex;
@@ -741,8 +740,8 @@ textarea:hover {
   gap: 12px;
   width: 108px;
   height: 48px;
-  background: #7D73FC;
-  box-shadow: 0px 8px 16px #7d73fc7a;
+  background: #7d73fc;
+  box-shadow: 1px 8px 16px #7d73fc7a;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -750,7 +749,7 @@ textarea:hover {
   color: white;
 }
 
-.src-button{
+.src-button {
   position: absolute;
   top: 610px;
   display: flex;
@@ -760,8 +759,8 @@ textarea:hover {
   height: 48px;
   padding-top: 15px;
   color: white;
-  background: #7D73FC;
-  box-shadow: 0px 8px 16px #7d73fc7a;
+  background: #7d73fc;
+  box-shadow: 1px 8px 16px #7d73fc7a;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -771,6 +770,6 @@ textarea:hover {
 .desktop-modal-image,
 .desktop-modal-text,
 .liner-4,
-.github-text{
+.github-text {
   display: none;
 }

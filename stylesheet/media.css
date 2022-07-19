@@ -696,7 +696,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    color: #ffffff;
+    color: #fff;
   }
 
   .close-mobile-modal {
@@ -713,7 +713,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-  
   }
 
   .desktop-modal-image {
@@ -737,7 +736,7 @@
     font-size: 16px;
     line-height: 30px;
     text-align: center;
-    color: #FFFFFF;
+    color: #fff;
   }
 
   .mobile-modal-lang {
@@ -771,7 +770,7 @@
     height: 100%;
   }
 
-  .live-button{
+  .live-button {
     position: absolute;
     top: 700px;
     left: 600px;
@@ -781,8 +780,8 @@
     gap: 12px;
     width: 108px;
     height: 48px;
-    background: #7D73FC;
-    box-shadow: 0px 8px 16px #7d73fc7a;
+    background: #7d73fc;
+    box-shadow: 1px 8px 16px #7d73fc7a;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -802,7 +801,7 @@
     padding-top: 15px;
     color: white;
     background: #7d73fc;
-    box-shadow: 0px 8px 16px #7d73fc7a;
+    box-shadow: 1px 8px 16px #7d73fc7a;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
