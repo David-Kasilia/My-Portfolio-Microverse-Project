@@ -634,11 +634,10 @@ textarea:hover {
   height: 90%;
   transform: translate(-50%, -50%) scale(0);
   transition: 200ms ease-in-out;
-  border: 1px solid black;
   border-radius: 2px;
   z-index: 10;
   background: #ffffff29;
-  border: 1px solid #ffffff;
+  border: 1px solid #fff;
   box-shadow: 1px 48px 48px #252f8914;
 }
 
@@ -664,7 +663,7 @@ textarea:hover {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .close-mobile-modal {
@@ -688,7 +687,7 @@ textarea:hover {
   position: absolute;
   width: 279px;
   height: 181px;
-  left: calc(50% - 279px/2);
+  left: calc(50% - 279px / 2);
   top: 70px;
 }
 

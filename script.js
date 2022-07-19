@@ -3,9 +3,9 @@ const menuItems = document.querySelectorAll('.menu-item');
 const hamburger = document.querySelector('.hamburger');
 const menuIcon = document.querySelector('.menu');
 const closeIcon = document.querySelector('.close');
-const openMobileModal = document.querySelectorAll('[data-modal-target]')
-const closeMobileModal = document.querySelectorAll('[data-close-button]')
-const overlay = document.querySelector('#overlay')
+const openMobileModal = document.querySelectorAll('[data-modal-target]');
+const closeMobileModal = document.querySelectorAll('[data-close-button]');
+const overlay = document.querySelector('#overlay');
 
 function mobileMenu() {
   if (menu.classList.contains('show-menu')) {
@@ -27,33 +27,33 @@ menuItems.forEach(
 
 openMobileModal.forEach(button => {
   button.addEventListener('click', () => {
-    const modal = document.querySelector(button.dataset.modalTarget)
-    openModal(modal)
-  })
-})
+    const modal = document.querySelector(button.dataset.modalTarget);
+    openModal(modal);
+  });
+});
 
 overlay.addEventListener('click', () => {
-  const modals = document.querySelectorAll('.mobile-modal.active')
+  const modals = document.querySelectorAll('.mobile-modal.active');
   modals.forEach(modal => {
-    closeModal(modal)
-  })
-})
+    closeModal(modal);
+  });
+});
 
 closeMobileModal.forEach(button => {
   button.addEventListener('click', () => {
-    const modal = button.closest('.mobile-modal')
-    closeModal(modal)
-  })
-})
+    const modal = button.closest('.mobile-modal');
+    closeModal(modal);
+  });
+});
 
 function openModal(modal) {
   if (modal == null) return
-  modal.classList.add('active')
-  overlay.classList.add('active')
+  modal.classList.add('active');
+  overlay.classList.add('active');
 }
 
 function closeModal(modal) {
   if (modal == null) return
-  modal.classList.remove('active')
-  overlay.classList.remove('active')
+  modal.classList.remove('active');
+  overlay.classList.remove('active');
 }
