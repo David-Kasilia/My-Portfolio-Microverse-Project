@@ -4,6 +4,7 @@ const hamburger = document.querySelector('.hamburger');
 const menuIcon = document.querySelector('.menu');
 const closeIcon = document.querySelector('.close');
 
+
 function mobileMenu() {
   if (menu.classList.contains('show-menu')) {
     menu.classList.remove('show-menu');
@@ -21,3 +22,4 @@ hamburger.addEventListener('click', mobileMenu);
 menuItems.forEach(
   (menuItem) => menuItem.addEventListener('click', mobileMenu),
 );
+
