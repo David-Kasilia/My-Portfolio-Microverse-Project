@@ -91,5 +91,5 @@ overlay.addEventListener('click', () => {
 });
 
 function closeMobileModal() {
-  closeModal.style.display = 'none';
+  closeModal.style.display = 'none'
 };
