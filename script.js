@@ -90,6 +90,6 @@ overlay.addEventListener('click', () => {
   });
 });
 
-function closeMobileModal() {
-  closeModal.style.display = 'none'
-};
+function closeModal() {
+  closeModal.style.display = 'none';
+}
