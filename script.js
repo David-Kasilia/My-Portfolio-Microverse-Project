@@ -33,7 +33,7 @@ mobileModalContent.descriptionMobile = 'Lorem Ipsum is simply dummy text of the 
 mobileModalContent.imageMobile = './images/modal-mobile.png';
 mobileModalContent.languagesMobile = ['|', 'html', '|', 'Ruby on rails', '|', 'css'];
 
-langArray =  mobileModalContent.languagesMobile.join(" ");
+ const langArray =  mobileModalContent.languagesMobile.join('  ');
 
 modalDataSet.innerHTML = `<h2 class="mobile-modal-title">${desktopModalContent.title}</h2>
   <span> <a onclick="closePopupModal()" href="" class="close-popup"><img class="close-image" src="${desktopModalContent.closeImage}" alt="Close icon Mobile modal" /></a></span>
