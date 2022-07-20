@@ -90,6 +90,6 @@ overlay.addEventListener('click', () => {
   });
 });
 
-function closeModal() {
+function closing() {
   closeModal.style.display = 'none';
 }
