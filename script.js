@@ -24,14 +24,14 @@ const desktopModalContent = [{
 
 const modalDataSet = document.getElementById('modal-mobile');
 
-desktopModalContent.title = 'Multi-post stories'
-desktopModalContent.descriptionDesktop = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.',
+desktopModalContent.title = 'Multi-post stories';
+desktopModalContent.descriptionDesktop = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.';
 desktopModalContent.imageDesktop = './images/modal-desktop.png',
 desktopModalContent.closeImage = './images/close-icon.png',
 desktopModalContent.languagesDesk = ['|', 'html', '|', 'Ruby on rails', '|', 'css', '|', 'Github'],
 mobileModalContent.descriptionMobile = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.',
 mobileModalContent.imageMobile = './images/modal-mobile.png',
-mobileModalContent.languagesMobile = ['|', 'html', '|', 'Ruby on rails', '|', 'css' ],
+mobileModalContent.languagesMobile = ['|', 'html', '|', 'Ruby on rails', '|', 'css'],
 
 langArray =  mobileModalContent.languagesMobile.join(" ");
 
@@ -44,7 +44,7 @@ modalDataSet .innerHTML = `<h2 class="mobile-modal-title">${desktopModalContent.
   <p class="mobile-modal-text">${mobileModalContent.descriptionMobile}</p>
   <button class="live-button" type="button">See Live <img class="live-icon" src="./images/Icon.png"></button>
   <button class="src-button" type="button">See Source <img class="src-icon" src="./images/Vector(1).png"></button>
-`
+`;
 
 function mobileMenu() {
   if (menu.classList.contains('show-menu')) {
