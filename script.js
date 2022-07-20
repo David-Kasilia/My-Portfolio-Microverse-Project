@@ -26,16 +26,16 @@ const modalDataSet = document.getElementById('modal-mobile');
 
 desktopModalContent.title = 'Multi-post stories';
 desktopModalContent.descriptionDesktop = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.';
-desktopModalContent.imageDesktop = './images/modal-desktop.png',
-desktopModalContent.closeImage = './images/close-icon.png',
-desktopModalContent.languagesDesk = ['|', 'html', '|', 'Ruby on rails', '|', 'css', '|', 'Github'],
-mobileModalContent.descriptionMobile = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.',
-mobileModalContent.imageMobile = './images/modal-mobile.png',
-mobileModalContent.languagesMobile = ['|', 'html', '|', 'Ruby on rails', '|', 'css'],
+desktopModalContent.imageDesktop = './images/modal-desktop.png';
+desktopModalContent.closeImage = './images/close-icon.png';
+desktopModalContent.languagesDesk = ['|', 'html', '|', 'Ruby on rails', '|', 'css', '|', 'Github'];
+mobileModalContent.descriptionMobile = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.';
+mobileModalContent.imageMobile = './images/modal-mobile.png';
+mobileModalContent.languagesMobile = ['|', 'html', '|', 'Ruby on rails', '|', 'css'];
 
 langArray =  mobileModalContent.languagesMobile.join(" ");
 
-modalDataSet .innerHTML = `<h2 class="mobile-modal-title">${desktopModalContent.title}</h2>
+modalDataSet.innerHTML = `<h2 class="mobile-modal-title">${desktopModalContent.title}</h2>
   <span> <a onclick="closePopupModal()" href="" class="close-popup"><img class="close-image" src="${desktopModalContent.closeImage}" alt="Close icon Mobile modal" /></a></span>
   <img class="desktop-modal-image" src="${desktopModalContent.imageDesktop}" alt="Project Image on desktop device">
   <p class="desktop-modal-text">${desktopModalContent.descriptionDesktop}</p>
@@ -90,6 +90,6 @@ overlay.addEventListener('click', () => {
   });
 });
 
-closeMobileModal = () => {
-  closeModal.style.display = 'none'
-}
+const closeMobileModal = () => {
+  closeModal.style.display = 'none';
+};
