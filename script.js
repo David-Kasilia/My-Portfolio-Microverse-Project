@@ -26,14 +26,14 @@ const mobileModalContent = [{
   
   let modalDataSet = document.getElementById('modal-mobile');
 
-  desktopModalContent.title =  'Multi-post stories';
+  desktopModalContent.title =  'Multi-post stories',
   desktopModalContent.descriptionDesktop = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.', 
-  desktopModalContent.imageDesktop = './images/modal-desktop.png', , 
+  desktopModalContent.imageDesktop = './images/modal-desktop.png',
   desktopModalContent.closeImage = './images/close-icon.png',
-  desktopModalContent.languagesDesk = ['|', 'html', '|', 'Ruby on rails', '|', 'css', '|', 'Github'],,
+  desktopModalContent.languagesDesk = ['|', 'html', '|', 'Ruby on rails', '|', 'css', '|', 'Github'],
   mobileModalContent.descriptionMobile = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.', 
   mobileModalContent.imageMobile = './images/modal-mobile.png', 
-  mobileModalContent.languagesMobile = ['|', 'html', '|', 'Ruby on rails', '|', 'css' ],,
+  mobileModalContent.languagesMobile = ['|', 'html', '|', 'Ruby on rails', '|', 'css' ],
   
    langArray =  mobileModalContent.languagesMobile.join(" ")
 
