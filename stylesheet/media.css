@@ -699,11 +699,12 @@
     color: #fff;
   }
 
-  .close-mobile-modal {
+  .close-image {
     position: absolute;
+    top: 25px;
     left: 95%;
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
     background: none;
     border: none;
     opacity: 1;
@@ -722,11 +723,13 @@
     height: 305px;
     margin: auto;
     top: 82px;
+    left: 300px;
   }
 
   .desktop-modal-text {
     display: block;
     position: absolute;
+    left: 390px;
     top: 380px;
     font-family: "Roboto", sans-serif;
     width: 684px;
@@ -741,13 +744,19 @@
 
   .mobile-modal-lang {
     position: absolute;
-    top: 610px;
+    left: 580px;
+    top: 550px;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 10px;
     width: 245px;
     height: 41px;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
   }
 
   #overlay {
@@ -772,7 +781,7 @@
 
   .live-button {
     position: absolute;
-    top: 700px;
+    top: 650px;
     left: 600px;
     display: flex;
     padding: 12px;
@@ -791,7 +800,7 @@
 
   .src-button {
     position: absolute;
-    top: 700px;
+    top: 650px;
     left: 800px;
     display: flex;
     align-items: flex-start;
@@ -812,4 +821,5 @@
   .mobile-modal-image {
     display: none;
   }
+
 }

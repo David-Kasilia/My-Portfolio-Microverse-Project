@@ -666,11 +666,12 @@ textarea:hover {
   color: #fff;
 }
 
-.close-mobile-modal {
+.close-image {
   position: absolute;
+  top: 25px;
   left: 90%;
-  height: 30px;
-  width: 30px;
+  height: 20px;
+  width: 20px;
   background: none;
   border: none;
   opacity: 1;
@@ -693,6 +694,7 @@ textarea:hover {
 .mobile-modal-text {
   position: absolute;
   top: 250px;
+  left: 50px;
   width: 279px;
   height: 289px;
   font-family: "Roboto", sans-serif;
@@ -706,12 +708,18 @@ textarea:hover {
 .mobile-modal-lang {
   position: absolute;
   top: 480px;
+  left: 48px;
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 10px;
   width: 245px;
   height: 41px;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
 }
 
 #overlay {
@@ -734,6 +742,7 @@ textarea:hover {
 .live-button {
   position: absolute;
   top: 550px;
+  left: 132px;
   display: flex;
   padding: 12px;
   align-items: flex-start;
@@ -752,6 +761,7 @@ textarea:hover {
 .src-button {
   position: absolute;
   top: 610px;
+  left: 127px;
   display: flex;
   align-items: flex-start;
   gap: 12px;
