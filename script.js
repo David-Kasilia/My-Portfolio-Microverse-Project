@@ -127,23 +127,23 @@ function validationForm() {
     errorMessage('secondText', '*Please Enter Your Last Name');
   } else {
     const lastRegex = /^[a-zA-Z\s]+$/;
-  if (lastRegex.test(secondName) === false){
-    errorMessage('secondText', '*Please Enter A Valid Last Name');
-  } else {
-    errorMessage('secondText', '');
-    secondText = false;
+    if (lastRegex.test(secondName) === false) {
+      errorMessage('secondText', '*Please Enter A Valid Last Name');
+    } else {
+      errorMessage('secondText', '');
+      secondText = false;
+    }
   }
- }
 
   if (emailDesk === '') {
-    errorMessage('emailText', "*Please enter your email address")
+    errorMessage('emailText', '*Please enter your email address');
   } else {
     const emailRegex = /^[a-zA-Z]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
-  if(emailRegex.test(emailDesk) === false){
-    errorMessage('emailText', "*Please enter a valid email address");
+    if(emailRegex.test(emailDesk) === false) {
+      errorMessage('emailText', '*Please enter a valid email address');
     } else {
       errorMessage('emailText', '');
-    emailText = false;
+      emailText = false;
     }
   }
 
@@ -152,22 +152,18 @@ function validationForm() {
 
   } else {
   const messRegex = /^[a-zA-Z\s]+$/;
-  if(messRegex.test(desktopMess) === false){
-    errorMessage('messageText', '*Please Enter A Valid Last Name');
-  } else {
-    errorMessage('messageText', '');
-    messageText = false;
-   }
+  if(messRegex.test(desktopMess) === false) {
+      errorMessage('messageText', '*Please Enter A Valid Last Name');
+    } else {
+      errorMessage('messageText', '');
+      messageText = false;
+    }
   }
 
-  if ((firstText || secondText || emailText || messageText == true)) {
-
+  if ((firstText || secondText || emailText || messageText === true)) {
     return false;
   }
-
 }
-
-validationForm();
 
 function errorMobileMessage (elemId, requiredMessage) {
   document.getElementById(elemId).innerHTML = requiredMessage;
@@ -224,5 +220,7 @@ function validationMobileForm() {
   }
 
 }
+
+validationForm();
 
 validationMobileForm();
