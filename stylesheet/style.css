@@ -116,7 +116,7 @@ article {
 
 h1:hover {
   color: #fff;
-  text-shadow: 
+  text-shadow:
     0 0 10px #fff,
     0 0 20px #fff,
     0 0 40px #fff;
@@ -803,6 +803,6 @@ textarea:hover {
   color: red;
 }
 
-#messageError{
+#messageError {
   margin-top: 5px;
 }
