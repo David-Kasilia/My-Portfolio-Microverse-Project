@@ -138,7 +138,7 @@ function validationForm() {
   if (emailDesk === '') {
     errorMessage('emailText', '*Please enter your email address');
   } else {
-    const emailRegex = /^[a-zA-Z]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
+    const emailRegex = /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/;
     if (emailRegex.test(emailDesk) === false) {
       errorMessage('emailText', '*Please enter a valid email address');
     } else {
@@ -196,7 +196,7 @@ function validationMobileForm() {
   if (mobileEmail == '') {
     errorMobileMessage('emailError', "*Please enter your email address")
   } else {
-    const emailRegex = /^[a-zA-Z]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
+    const emailRegex = /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/;
   if (emailRegex.test(mobileEmail) === false){
     errorMobileMessage('emailText', "*Please enter a valid email address");
     } else {

@@ -114,6 +114,13 @@ article {
   align-items: center;
 }
 
+h1:hover {
+  color: #fff;
+  text-shadow: 0 0 10px #fff,
+               0 0 20px #fff, 
+               0 0 40px #fff;
+}
+
 .main-header {
   font-family: "Roboto", sans-serif;
   color: #7c73fc;
@@ -587,13 +594,13 @@ button:hover {
   transition: 0.5s;
 }
 
-/* input:hover {
-  transform: translate(2.5rem, 2ex);
-} */
+input:hover {
+  transform: scale(1) translate(0, -.5rem);
+}
 
-/* textarea:hover {
-  transform: translate(2.5rem, 2ex);
-} */
+textarea:hover {
+  transform: scale(1) translate(0, -.5rem);
+}
 
 @keyframes animated-text {
   from {
