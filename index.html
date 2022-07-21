@@ -135,6 +135,7 @@
       </ul>
 
       <button data-modal-target="#modal-mobile" class="see-1" type="button">See Project</button>
+      
       <div class="mobile-modal" id="modal-mobile">
         
       </div>
@@ -235,15 +236,15 @@
 
     <div class="forms-container">
       <div class="forms">
-        <form class="mobile-form" action="https://formspree.io/f/mpzbvrag" name="mobileForm" method="post">
+        <form class="mobile-form" action="https://formspree.io/f/mpzbvrag" name="mobileForm" method="post"  onsubmit="return validationMobileForm()">
               <label id="text">Name;</label>
-              <input class="text" type="text" name="mobileName" placeholder="Text Input" required maxlength="30" />
+              <input class="text" type="text" name="mobileName" placeholder="Text Input" maxlength="30" />
               <div id="nameError"></div>
               <label id="email">Email;</label>
-              <input class="text-email" type="email" name="mobileEmail" placeholder="jeremy@gmail.com" required maxlength="30"/>
+              <input class="text-email"  name="mobileEmail" placeholder="jeremy@gmail.com" maxlength="30"/>
               <div id="emailError"></div>
               <label id="message">Message;</label>
-              <textarea class="mess" name="mobileMessage"  required  maxlength="500" placeholder="Enter text here"></textarea>
+              <textarea class="mess" name="mobileMessage"  maxlength="500" placeholder="Enter text here"></textarea>
               <div id="messageError"></div>
               <button type="submit" class="submit-btn">See Project</button>
         </form>
@@ -255,7 +256,7 @@
               <input class="text-last" type="text" placeholder="Last Name" name="lastName" />
               <div id="secondText"></div>
               <label id="email-2">Email;</label>
-              <input class="text-email-desk" type="email" placeholder="Email Address" name="desktopEmail" />
+              <input class="text-email-desk"  placeholder="Email Address" name="desktopEmail" />
               <div id="emailText"></div>
               <label id="message-2">Message;</label>
               <textarea class="mess-desk" name="desktopMessage"  placeholder="Write your message here"></textarea>
