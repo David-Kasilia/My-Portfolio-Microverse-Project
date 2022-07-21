@@ -516,7 +516,7 @@
   }
 
   .contact-form-container {
-    margin-top: 300px;
+    margin-top: 250px;
     display: flex;
     flex-direction: column;
   }
@@ -545,9 +545,12 @@
     height: 61px;
   }
 
-  .mobile-form {
+  .desktop-form {
     display: block;
     position: relative;
+    top: -32px;
+    right: 85px;
+    left: -25px;
   }
 
   .text-desk {
@@ -558,6 +561,7 @@
     left: 350px;
     background: #f7f3ff;
     border-radius: 2px;
+    top: -20px;
   }
 
   .text-last {
@@ -567,6 +571,7 @@
     height: 48px;
     left: 705px;
     background: #fff;
+    top: -20px;
   }
 
   .text-email-desk {
@@ -574,20 +579,20 @@
     position: absolute;
     width: 684px;
     height: 48px;
-    top: 75px;
+    top: 79px;
     left: 348px;
   }
 
   .mess-desk {
     display: block;
     position: absolute;
-    top: 150px;
+    top: 175px;
     width: 684px;
     height: 136px;
     left: 358px;
   }
 
-  .submit-btn {
+  .desktop-button {
     display: block;
     margin: auto;
     background: #7d73fc;
@@ -604,14 +609,15 @@
   }
 
   .line-bottom {
-    margin-top: 580px;
+    margin-top: 520px;
     color: gray;
   }
 
   .shape,
   .text,
   .text-email,
-  .mess {
+  .mess,
+  .submit-btn {
     display: none;
   }
 
@@ -819,6 +825,56 @@
 
   .mobile-modal-text,
   .mobile-modal-image {
+    display: none;
+  }
+
+  #firstText {
+    position: absolute;
+    top: 60px;
+    left: 390px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: red;
+  }
+
+  #secondText {
+    position: absolute;
+    top: 60px;
+    left: 740px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: red;
+  }
+
+  #emailText {
+    position: absolute;
+    top: 153px;
+    left: 390px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: red;
+  }
+
+  #messageText {
+    position: absolute;
+    top: 337px;
+    left: 390px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: red;
+  }
+
+  #nameError,
+  #emailError,
+  #messageError {
     display: none;
   }
 }

@@ -114,6 +114,14 @@ article {
   align-items: center;
 }
 
+h1:hover {
+  color: #fff;
+  text-shadow:
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff;
+}
+
 .main-header {
   font-family: "Roboto", sans-serif;
   color: #7c73fc;
@@ -588,11 +596,11 @@ button:hover {
 }
 
 input:hover {
-  transform: translate(2.5rem, 2ex);
+  transform: scale(1) translate(1px, -1rem);
 }
 
 textarea:hover {
-  transform: translate(2.5rem, 2ex);
+  transform: scale(1) translate(1px, -1rem);
 }
 
 @keyframes animated-text {
@@ -782,4 +790,19 @@ textarea:hover {
 .liner-4,
 .github-text {
   display: none;
+}
+
+#nameError,
+#emailError,
+#messageError {
+  display: block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: red;
+}
+
+#messageError {
+  margin-top: 5px;
 }
