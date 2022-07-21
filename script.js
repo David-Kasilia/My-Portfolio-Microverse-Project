@@ -139,7 +139,7 @@ function validationForm() {
     errorMessage('emailText', '*Please enter your email address');
   } else {
     const emailRegex = /^[a-zA-Z]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
-    if(emailRegex.test(emailDesk) === false) {
+    if (emailRegex.test(emailDesk) === false) {
       errorMessage('emailText', '*Please enter a valid email address');
     } else {
       errorMessage('emailText', '');
@@ -147,12 +147,12 @@ function validationForm() {
     }
   }
 
-  if(desktopMess === '') {
+  if (desktopMess === '') {
     errorMessage('messageText', '*Please Enter Your Last Name');
 
   } else {
-  const messRegex = /^[a-zA-Z\s]+$/;
-  if(messRegex.test(desktopMess) === false) {
+    const messRegex = /^[a-zA-Z\s]+$/;
+    if (messRegex.test(desktopMess) === false) {
       errorMessage('messageText', '*Please Enter A Valid Last Name');
     } else {
       errorMessage('messageText', '');
@@ -164,6 +164,8 @@ function validationForm() {
     return false;
   }
 }
+
+validationForm();
 
 function errorMobileMessage (elemId, requiredMessage) {
   document.getElementById(elemId).innerHTML = requiredMessage;
@@ -207,7 +209,7 @@ function validationMobileForm() {
   } else {
   const messRegex = /^[a-zA-Z\s]+$/;
   if(messRegex.test(mobileMessage) === false){
-    errorMobileMessage('messageError', '*Please Enter A Valid Last Name');
+    errorMobileMessage('messageError', '*Please Enter A Valid Last Name');;
   } else {
     errorMobileMessage('messageError', '');
     messageError = false;
@@ -220,7 +222,5 @@ function validationMobileForm() {
   }
 
 }
-
-validationForm();
 
 validationMobileForm();
