@@ -786,7 +786,7 @@ button:hover {
 
 #nameError,
 #emailError,
-#messageError{
+#messageError {
   display: block;
   font-style: normal;
   font-weight: 500;

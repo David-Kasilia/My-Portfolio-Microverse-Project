@@ -824,54 +824,53 @@
   }
 
   
- #firstText{
-  position: absolute;
-  top: 72px;
-  left: 390px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  color: red;
-}
+   #firstText{
+    position: absolute;
+    top: 72px;
+    left: 390px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: red;
+  }
 
-#secondText{
-  position: absolute;
-  top: 72px;
-  left: 740px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  color: red;
-}
+  #secondText{
+    position: absolute;
+    top: 72px;
+    left: 740px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: red;
+  }
 
-#emailText{
-  position: absolute;
-  top: 148px;
-  left: 390px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  color: red;
-}
+  #emailText{
+    position: absolute;
+    top: 148px;
+    left: 390px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: red;
+  }
 
-#messageText{
-  position: absolute;
-  top: 315px;
-  left: 390px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  color: red;
-}
+  #messageText{
+    position: absolute;
+    top: 315px;
+    left: 390px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: red;
+  }
 
-#nameError,
-#emailError,
-#messageError{
-  display: none;
-}
-
+  #nameError,
+  #emailError,
+  #messageError{
+    display: none;
+  }
 }
