@@ -166,6 +166,8 @@ function validationForm() {
 
 }
 
+
+
 function errorMobileMessage (elemId, requiredMessage) {
   document.getElementById(elemId).innerHTML = requiredMessage;
 }
@@ -222,6 +224,4 @@ function validationMobileForm() {
 
 }
 
-
-
-
+validationMobileForm();

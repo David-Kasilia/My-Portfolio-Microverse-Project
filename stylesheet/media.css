@@ -823,8 +823,7 @@
     display: none;
   }
 
-  
-   #firstText{
+   #firstText {
     position: absolute;
     top: 72px;
     left: 390px;
@@ -835,7 +834,7 @@
     color: red;
   }
 
-  #secondText{
+  #secondText {
     position: absolute;
     top: 72px;
     left: 740px;
@@ -846,7 +845,7 @@
     color: red;
   }
 
-  #emailText{
+  #emailText {
     position: absolute;
     top: 148px;
     left: 390px;
@@ -857,7 +856,7 @@
     color: red;
   }
 
-  #messageText{
+  #messageText {
     position: absolute;
     top: 315px;
     left: 390px;
@@ -870,7 +869,7 @@
 
   #nameError,
   #emailError,
-  #messageError{
+  #messageError {
     display: none;
   }
 }
