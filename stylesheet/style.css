@@ -116,8 +116,8 @@ article {
 
 h1:hover {
   color: #fff;
-  text-shadow: 0 0 10px #fff,
-
+  text-shadow: 
+    0 0 10px #fff,
     0 0 20px #fff, 
     0 0 40px #fff;
 }
@@ -596,11 +596,11 @@ button:hover {
 }
 
 input:hover {
-  transform: scale(1) translate(0, -.5rem);
+  transform: scale(1) translate(1px, -.5rem);
 }
 
 textarea:hover {
-  transform: scale(1) translate(0, -.5rem);
+  transform: scale(1) translate(1px, -.5rem);
 }
 
 @keyframes animated-text {
