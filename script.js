@@ -5,6 +5,9 @@ const menuIcon = document.querySelector('.menu');
 const closeIcon = document.querySelector('.close');
 const openMobileModal = document.querySelectorAll('[data-modal-target]');
 const overlay = document.querySelector('#overlay');
+const validateForm = document.querySelector('.mobile-form')
+const desktopValidate = document.querySelector('.desktop-form')
+const desktopEmail = document.getElementsByClassName('.text-email-desk')
 
 const mobileModalContent = [{
   title: 'Multi-post stories',
@@ -95,3 +98,8 @@ function closing() {
 }
 
 closing();
+	
+
+
+
+

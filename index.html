@@ -235,25 +235,32 @@
 
     <div class="forms-container">
       <div class="forms">
-        <form class="mobile-form" action="https://formspree.io/f/xdobrapq" method="post">
+        <form class="mobile-form" action="https://formspree.io/f/mpzbvrag" name="mobileForm" method="post">
               <label id="text">Name;</label>
-              <input class="text" type="text" placeholder="Text Input" required maxlength="30" />
+              <input class="text" type="text" name="mobileName" placeholder="Text Input" required maxlength="30" />
+              <div id="nameError"></div>
               <label id="email">Email;</label>
-              <input class="text-email" type="email" placeholder="jeremy@gmail.com" required maxlength="30"/>
+              <input class="text-email" type="email" name="mobileEmail" placeholder="jeremy@gmail.com" required maxlength="30"/>
+              <div id="emailError"></div>
               <label id="message">Message;</label>
-              <textarea class="mess" name="message"  required  maxlength="500" placeholder="Enter text here"></textarea>
+              <textarea class="mess" name="mobileMessage"  required  maxlength="500" placeholder="Enter text here"></textarea>
+              <div id="messageError"></div>
               <button type="submit" class="submit-btn">See Project</button>
         </form>
-        <form class="mobile-form" action="https://formspree.io/f/xdobrapq" method="post">
+        <form class="desktop-form" action="https://formspree.io/f/meqnykjn" name="desktopForm" method="post" onsubmit="return validationForm()">
               <label id="text-2">Name;</label>
-              <input class="text-desk" type="text" placeholder="Jeremy" required maxlength="30" />
+              <input class="text-desk" type="text" placeholder="Jeremy" name="firstName"/>
+              <div id="firstText"></div>
               <label id="text-3">Last Name;</label>
-              <input class="text-last" type="text" placeholder="Last Name" required maxlength="30" />
+              <input class="text-last" type="text" placeholder="Last Name" name="lastName" />
+              <div id="secondText"></div>
               <label id="email-2">Email;</label>
-              <input class="text-email-desk" type="email" placeholder="Email Address" required maxlength="30" />
+              <input class="text-email-desk" type="email" placeholder="Email Address" name="desktopEmail" />
+              <div id="emailText"></div>
               <label id="message-2">Message;</label>
-              <textarea class="mess-desk" name="message" required maxlength="500" placeholder="Write your message here"></textarea>
-              <button class="desktop-button" type="submit">See Project</button>
+              <textarea class="mess-desk" name="desktopMessage"  placeholder="Write your message here"></textarea>
+              <div id="messageText"></div>
+              <button class="desktop-button" type="submit" >See Project</button>
         </form>
       </div>
     </div>

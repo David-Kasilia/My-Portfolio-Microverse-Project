@@ -545,7 +545,7 @@
     height: 61px;
   }
 
-  .mobile-form {
+  .desktop-form {
     display: block;
     position: relative;
   }
@@ -587,7 +587,7 @@
     left: 358px;
   }
 
-  .submit-btn {
+  .desktop-button {
     display: block;
     margin: auto;
     background: #7d73fc;
@@ -611,7 +611,8 @@
   .shape,
   .text,
   .text-email,
-  .mess {
+  .mess,
+  .submit-btn {
     display: none;
   }
 
@@ -821,4 +822,6 @@
   .mobile-modal-image {
     display: none;
   }
+
+
 }

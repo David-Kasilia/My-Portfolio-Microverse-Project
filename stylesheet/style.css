@@ -587,13 +587,13 @@ button:hover {
   transition: 0.5s;
 }
 
-input:hover {
+/* input:hover {
   transform: translate(2.5rem, 2ex);
-}
+} */
 
-textarea:hover {
+/* textarea:hover {
   transform: translate(2.5rem, 2ex);
-}
+} */
 
 @keyframes animated-text {
   from {
