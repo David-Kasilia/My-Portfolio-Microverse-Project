@@ -207,7 +207,7 @@ function validationMobileForm() {
   } else {
   const messRegex = /^[a-zA-Z\s]+$/;
   if(messRegex.test(mobileMessage) === false){
-    errorMobileMessage('messageError', '*Please Enter A Valid Last Name');;
+    errorMobileMessage('messageError', '*Please Enter A Valid Last Name');
   } else {
     errorMobileMessage('messageError', '');
     messageError = false;
