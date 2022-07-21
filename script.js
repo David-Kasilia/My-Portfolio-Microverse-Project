@@ -99,6 +99,36 @@ function closing() {
 
 closing();
 	
+function errorMessage (elemId, requiredMessage) {
+  document.getElementById(elemId).innerHTML = requiredMessage;
+}
+function validationForm() {
+  var firstName = document.forms['desktopForm'] ['firstName'].value;
+  var secondName = document.forms['desktopForm'] 
+if(secondName == '') {
+    errorMessage ('secondText', '\*Please Enter Your Last Name')
+
+ } else {
+  var lastRegex = /^[a-zA-Z\s]+$/;
+  if(lastRegex.test(secondName) === false){
+    errorMessage ('secondText', '\*Please Enter A Valid Last Name')
+  } else{
+    errorMessage ('secondText', '')
+    secondText = false;
+  }
+ }
+
+  if(emailDesk == '') {
+    errorMessage ('emailText', "\*Please enter your email address")
+  }else {
+    var emailRegex = /^[a-zA-Z]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
+  if(emailRegex.test(emailDesk) === false){
+    errorMessage ('emailText', "\*Please enter a valid email address")
+    } else{
+      errorMessage ('emailText', '')
+    emailText = false;
+    }
+  }
 
 
 
