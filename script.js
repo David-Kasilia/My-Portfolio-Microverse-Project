@@ -106,11 +106,13 @@ function validationForm() {
   const emailDesk = document.forms.desktopForm.desktopEmail.value;
   const desktopMess = document.forms.desktopForm.desktopMessage.value;
 
-  const firstText = secondText = emailText = messageText = true;
+  let firstText = true;
+  let secondText = true;
+  let emailText = true;
+  let messageText = true;
 
   if (firstName === '') {
     errorMessage('firstText', '*Please Enter Your First Name');
-   
   } else {
     const nameRegex = /^[a-zA-Z\s]+$/;
     if (nameRegex.test(firstName) === false) {
@@ -121,20 +123,19 @@ function validationForm() {
     }
   }
 
-  if(secondName === '') {
+  if (secondName === '') {
     errorMessage('secondText', '*Please Enter Your Last Name');
-
   } else {
-  const lastRegex = /^[a-zA-Z\s]+$/;
-  if(lastRegex.test(secondName) === false){
+    const lastRegex = /^[a-zA-Z\s]+$/;
+  if (lastRegex.test(secondName) === false){
     errorMessage('secondText', '*Please Enter A Valid Last Name');
   } else {
-    errorMessage ('secondText', '');
+    errorMessage('secondText', '');
     secondText = false;
   }
  }
 
-  if(emailDesk === '') {
+  if (emailDesk === '') {
     errorMessage('emailText', "*Please enter your email address")
   } else {
     const emailRegex = /^[a-zA-Z]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
