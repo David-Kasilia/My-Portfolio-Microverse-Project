@@ -118,7 +118,7 @@ h1:hover {
   color: #fff;
   text-shadow: 
     0 0 10px #fff,
-    0 0 20px #fff, 
+    0 0 20px #fff,
     0 0 40px #fff;
 }
 
@@ -596,11 +596,11 @@ button:hover {
 }
 
 input:hover {
-  transform: scale(1) translate(1px, -.5rem);
+  transform: scale(1) translate(1px, -1rem);
 }
 
 textarea:hover {
-  transform: scale(1) translate(1px, -.5rem);
+  transform: scale(1) translate(1px, -1rem);
 }
 
 @keyframes animated-text {
@@ -801,4 +801,8 @@ textarea:hover {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   color: red;
+}
+
+#messageError{
+  margin-top: 5px;
 }

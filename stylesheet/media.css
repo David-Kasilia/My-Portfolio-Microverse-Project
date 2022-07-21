@@ -548,7 +548,7 @@
   .desktop-form {
     display: block;
     position: relative;
-    top: -30px;
+    top: -32px;
     right: 85px;
     left: -25px;
   }
@@ -561,7 +561,7 @@
     left: 350px;
     background: #f7f3ff;
     border-radius: 2px;
-    top: -18px;
+    top: -20px;
   }
 
   .text-last {
@@ -571,7 +571,7 @@
     height: 48px;
     left: 705px;
     background: #fff;
-    top: -18px;
+    top: -20px;
   }
 
   .text-email-desk {
@@ -579,14 +579,14 @@
     position: absolute;
     width: 684px;
     height: 48px;
-    top: 75px;
+    top: 79px;
     left: 348px;
   }
 
   .mess-desk {
     display: block;
     position: absolute;
-    top: 160px;
+    top: 175px;
     width: 684px;
     height: 136px;
     left: 358px;
@@ -852,7 +852,7 @@
 
   #emailText {
     position: absolute;
-    top: 148px;
+    top: 153px;
     left: 390px;
     font-style: normal;
     font-weight: 500;
@@ -863,7 +863,7 @@
 
   #messageText {
     position: absolute;
-    top: 325px;
+    top: 337px;
     left: 390px;
     font-style: normal;
     font-weight: 500;

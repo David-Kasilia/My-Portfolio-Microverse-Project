@@ -206,12 +206,12 @@ function validationMobileForm() {
   }
 
   if (mobileMessage == '') {
-    errorMobileMessage('messageError', '*Please Enter Your Last Name');
+    errorMobileMessage('messageError', '*Please Enter Your Message');
 
   } else {
   const messRegex = /^[a-zA-Z\s]+$/;
   if(messRegex.test(mobileMessage) === false){
-    errorMobileMessage('messageError', '*Please Enter A Valid Last Name');
+    errorMobileMessage('messageError', '*Please Enter A Valid Message');
   } else {
     errorMobileMessage('messageError', '');
     messageError = false;
