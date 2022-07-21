@@ -176,7 +176,9 @@ function validationMobileForm() {
  const mobileEmail = document.forms.mobileForm.mobileEmail.value;
  const mobileMessage = document.forms.mobileForm.mobileMessage.value;
 
- const nameError  = emailError = messageError = true;
+ let nameError  = true;
+ let emailError = true;
+ let messageError = true;
 
   if (mobileName == '') {
     errorMobileMessage('nameError', '*Please Enter Your First Name');
@@ -209,7 +211,7 @@ function validationMobileForm() {
   } else {
   const messRegex = /^[a-zA-Z\s]+$/;
   if(messRegex.test(mobileMessage) === false){
-    errorMobileMessage('messageError', '*Please Enter A Valid Last Name');;
+    errorMobileMessage('messageError', '*Please Enter A Valid Last Name');
   } else {
     errorMobileMessage('messageError', '');
     messageError = false;
