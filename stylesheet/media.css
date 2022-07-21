@@ -549,6 +549,8 @@
     display: block;
     position: relative;
     top: -30px;
+    right: 85px;
+    left: -25px;
   }
 
   .text-desk {
@@ -607,7 +609,7 @@
   }
 
   .line-bottom {
-    margin-top: 580px;
+    margin-top: 520px;
     color: gray;
   }
 
