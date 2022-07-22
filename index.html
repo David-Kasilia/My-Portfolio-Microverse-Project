@@ -250,18 +250,18 @@
         </form>
         <form class="desktop-form" action="https://formspree.io/f/meqnykjn" name="desktopForm" method="post" onsubmit="return validationForm()">
               <label id="text-2">Name;</label>
-              <input class="text-desk" type="text" placeholder="Jeremy" name="firstName"/>
+              <input class="text-desk" id="firstName" type="text" placeholder="Jeremy" name="firstName"/>
               <div id="firstText"></div>
               <label id="text-3">Last Name;</label>
-              <input class="text-last" type="text" placeholder="Last Name" name="lastName" />
+              <input class="text-last" id="secondName" type="text" placeholder="Last Name" name="lastName" />
               <div id="secondText"></div>
               <label id="email-2">Email;</label>
-              <input class="text-email-desk"  placeholder="Email Address" name="desktopEmail" />
+              <input class="text-email-desk" id="userEmail" placeholder="Email Address" name="desktopEmail" />
               <div id="emailText"></div>
               <label id="message-2">Message;</label>
-              <textarea class="mess-desk" name="desktopMessage"  placeholder="Write your message here"></textarea>
+              <textarea class="mess-desk" name="desktopMessage" id="desktopMessage"  placeholder="Write your message here"></textarea>
               <div id="messageText"></div>
-              <button class="desktop-button" type="submit" >See Project</button>
+              <button class="desktop-button" onclick="saveDesktop()" type="submit" >See Project</button>
         </form>
       </div>
     </div>
