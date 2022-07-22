@@ -227,4 +227,21 @@ function validationMobileForm() {
 
 validationMobileForm();
 
-
+function saveDesktop() {
+  const storeFirst = document.getElementById('firstName').value;
+  const storeLast = document.getElementById('secondName').value;
+  const storeEmailDesk = document.getElementById('userEmail').value;
+  const storeMessage = document.getElementById('desktopMessage').value;
+  
+  const FirstName = storeFirst
+  const LastName = storeLast
+  const UserDesktopEmail = storeEmailDesk
+  const UserDesktopMessage = storeMessage
+  
+  const savedDeskObj = {FirstName, LastName, UserDesktopEmail, UserDesktopMessage};
+  
+  localStorage.setItem = JSON.stringify(savedDeskObj)
+  }
+  
+  saveDesktop()
+  
