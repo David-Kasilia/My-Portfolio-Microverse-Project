@@ -226,3 +226,75 @@ function validationMobileForm() {
 }
 
 validationMobileForm();
+
+
+let storeFirstName = document.getElementById('firstName');
+let storeLastName = document.getElementById('secondName');
+let storeEmailDesktop = document.getElementById('userEmail');
+let storeMessageDesktop = document.getElementById('desktopMessage');
+
+let savedDeskObj = JSON.parse(localStorage.getItem('savedDeskObj'))
+
+if (savedDeskObj) {
+storeFirstName.value = savedDeskObj.FirstName;
+storeLastName.value = savedDeskObj.LastName;
+storeEmailDesktop.value = savedDeskObj.UserDesktopEmail;
+storeMessageDesktop.value = savedDeskObj.UserDesktopMessage;
+}
+
+function saveDesktop() {
+  const storeFirst = document.getElementById('firstName').value;
+  const storeLast = document.getElementById('secondName').value;
+  const storeEmailDesk = document.getElementById('userEmail').value;
+  const storeMessage = document.getElementById('desktopMessage').value;
+ 
+
+  if ( !storeFirst || !storeLast || !storeEmailDesk || !storeMessage) {
+      return;
+  }
+  
+  let savedDeskObj = {
+   FirstName :storeFirst,
+   LastName : storeLast,
+   UserDesktopEmail : storeEmailDesk,
+   UserDesktopMessage :storeMessage,
+  }
+  
+  localStorage.setItem( 'DesktopFormData',JSON.stringify(savedDeskObj))
+}
+  
+saveDesktop()
+
+let storeMobileName = document.getElementById('textMobile');
+let storeMobileEmail = document.getElementById('emailMobile');
+let storeMobileMessage = document.getElementById('mobileMessage');
+
+
+let savedMobileObj = JSON.parse(localStorage.getItem('savedMobileObj'))
+
+if (savedMobileObj) {
+storeMobileName.value = savedMobileObj.MobileName;
+storeMobileEmail.value = savedMobileObj.MobileEmail;
+storeMobileMessage.value = savedMobileObj.MobileMessage;
+}
+
+function saveMobile() {
+  let MobileName = document.getElementById('textMobile').value;
+  let MobileEmail = document.getElementById('emailMobile').value;
+  let MobileMessage = document.getElementById('mobileMessage').value;
+
+  if ( !MobileName || !MobileEmail || !MobileMessage) {
+      return;
+  }
+  
+  let savedMobileObj = {
+   MobileName : MobileName,
+   MobileEmail : MobileEmail,
+   MobileMessage : MobileMessage,
+  }
+  
+  localStorage.setItem( 'MobileFormData',JSON.stringify(savedMobileObj))
+}
+  
+saveMobile()
+
